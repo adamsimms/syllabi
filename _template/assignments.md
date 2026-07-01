@@ -1,6 +1,6 @@
 # Assignments
 
-[← Courses](../README.md) · [Syllabus](README.md) · **Assignments** · [Schedule](schedule.md) · [Resources](resources.md)
+[Syllabus](README.md) · **Assignments** · [Schedule](schedule.md) · [Resources](resources.md)
 
 ---
 

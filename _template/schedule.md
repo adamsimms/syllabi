@@ -1,6 +1,6 @@
 # Schedule
 
-[← Courses](../README.md) · [Syllabus](README.md) · [Assignments](assignments.md) · **Schedule** · [Resources](resources.md)
+[Syllabus](README.md) · [Assignments](assignments.md) · **Schedule** · [Resources](resources.md)
 
 **Time:** Day, start–end  
 **Location:** Room SGW unless otherwise noted.

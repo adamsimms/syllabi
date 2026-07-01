@@ -1,6 +1,6 @@
 # COURSE CODE – Course Title
 
-[← Courses](../README.md) · **Syllabus** · [Assignments](assignments.md) · [Schedule](schedule.md) · [Resources](resources.md)
+**Syllabus** · [Assignments](assignments.md) · [Schedule](schedule.md) · [Resources](resources.md)
 
 > TERM YEAR: Taught by Adam Simms with Teaching Assistant NAME · [Photography program](https://www.concordia.ca/finearts/studio-arts/photography.html) in the [Studio Arts Department](https://www.concordia.ca/finearts/studio-arts.html) at [Concordia University](https://www.concordia.ca)
 
