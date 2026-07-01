@@ -1,6 +1,6 @@
 # Schedule
 
-[← Courses](../README.md) · [Syllabus](README.md) · [Assignments](assignments.md) · **Schedule** · [Resources](resources.md)
+[Syllabus](README.md) · [Assignments](assignments.md) · **Schedule** · [Resources](resources.md)
 
 **Time:** Wednesdays, 8:30 AM–12:30 PM  
 **Location:** EV 5.709 SGW unless otherwise noted.

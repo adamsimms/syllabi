@@ -1,6 +1,6 @@
 # Assignments
 
-[← Courses](../README.md) · [Syllabus](README.md) · **Assignments** · [Schedule](schedule.md) · [Resources](resources.md)
+[Syllabus](README.md) · **Assignments** · [Schedule](schedule.md) · [Resources](resources.md)
 
 Students will be required to present in-progress work, engage in group critiques, and complete a final research-creation project. A brief overview of each assignment is outlined below, but additional details, requirements, and grading rubrics will be provided throughout the semester. Students will receive a graded assessment after each assignment.
 

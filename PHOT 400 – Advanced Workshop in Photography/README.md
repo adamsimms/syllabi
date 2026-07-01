@@ -1,6 +1,6 @@
 # PHOT 400 – Advanced Workshop in Photography
 
-[← Courses](../README.md) · **Syllabus** · [Assignments](assignments.md) · [Schedule](schedule.md) · [Resources](resources.md)
+**Syllabus** · [Assignments](assignments.md) · [Schedule](schedule.md) · [Resources](resources.md)
 
 > Fall 2025 – Winter 2025: Taught by Adam Simms with Teaching Assistant Mathieu Gagnon · [Photography program](https://www.concordia.ca/finearts/studio-arts/photography.html) in the [Studio Arts Department](https://www.concordia.ca/finearts/studio-arts.html) at [Concordia University](https://www.concordia.ca)
 

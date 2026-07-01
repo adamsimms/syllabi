@@ -1,6 +1,6 @@
 # Schedule — Fall Semester
 
-[← Courses](../README.md) · [Syllabus](README.md) · [Assignments](assignments.md) · **Schedule** · [Resources](resources.md)
+[Syllabus](README.md) · [Assignments](assignments.md) · **Schedule** · [Resources](resources.md)
 
 **Time:** Thursdays, 1:30–5:30 PM  
 **Location:** EV 3.645 SGW unless otherwise noted.
