@@ -2,11 +2,11 @@
 
 **Syllabus** · [Assignments](assignments.md) · [Schedule](schedule.md) · [Resources](resources.md)
 
-> Fall 2025 – Winter 2025: Taught by Adam Simms with Teaching Assistant Mathieu Gagnon · [Photography program](https://www.concordia.ca/finearts/studio-arts/photography.html) in the [Studio Arts Department](https://www.concordia.ca/finearts/studio-arts.html) at [Concordia University](https://www.concordia.ca)
+> Taught by Adam Simms · [Photography program](https://www.concordia.ca/finearts/studio-arts/photography.html) in the [Studio Arts Department](https://www.concordia.ca/finearts/studio-arts.html) at [Concordia University](https://www.concordia.ca)
 
 ## Course Details
 
-- **Credits:** 6-credit course (approximately 8 months / two semesters)
+- **Credits:** 6-credit course (26 weeks across two terms)
 - **Time:** Thursdays, 1:30–5:30 PM
 - **Location:** EV 3.645 SGW
 
@@ -28,7 +28,7 @@ The following courses must be completed previously: PHOT 300; ARTH 359. Students
 
 PHOT 400 is a studio course for students in their final year of the photography program. The course is designed to help students develop their artistic skills through practical application and critical analysis, continue to develop a photographic language unique to their practice, and learn from the work of other contemporary artists.
 
-Weekly classes will engage with contemporary photography topics in seminars, participate in group critiques, visit galleries and museums, and receive both technical and personal guidance from the professor and teaching assistant.
+Weekly classes will engage with contemporary photography topics in seminars, participate in group critiques, visit galleries and museums, and receive both technical and personal guidance from the instructor.
 
 Students are required to undertake an extended black-and-white or colour photographic project in analogue or digital formats. Although there are no specific requirements for the size, format, or number of prints for the final project, the work presented at the midterm and final evaluations must clearly address the themes outlined in their project proposals and final project statements. Students are expected to produce a substantial amount of work for these critiques.
 
@@ -47,6 +47,13 @@ Students are required to undertake an extended black-and-white or colour photogr
 
 All classes will be held on campus at EV 3.645 SGW unless specified otherwise in the [course schedule](schedule.md). In-person attendance is mandatory.
 
+### Moodle
+
+- [Course Moodle page](https://moodle.concordia.ca/moodle/course/view.php?id=169301)
+- You can access Moodle directly at [moodle.concordia.ca](https://moodle.concordia.ca).
+- Please make sure the email address you indicate in your My CU Account/Student Hub is correct and up to date. Any Moodle course announcements created by professors will automatically use this email address for notifications.
+- Program hubs: [Photography Moodle Hub](https://moodle.concordia.ca) · [Studio Arts Department Moodle Hub](https://moodle.concordia.ca)
+
 ### Individual Meetings
 
 Individual meetings can be arranged by appointment with the instructor.
@@ -61,7 +68,7 @@ Students must bear the cost of all photographic materials needed to complete the
 
 ---
 
-## Grading (Fall Semester)
+## Grading
 
 | Component | Weight |
 |-----------|--------|
@@ -69,9 +76,9 @@ Students must bear the cost of all photographic materials needed to complete the
 | [Mid-Term Presentation](assignments.md#mid-term-presentation-10) | 10% |
 | [Final Presentation and Critique](assignments.md#final-presentation-and-critique-20) | 20% |
 | [Class Participation](assignments.md#class-participation-10) | 10% |
-| **Total (Fall Semester)** | **50%** |
+| **Total** | **50%** |
 
-The remaining 50% of the course grade is assessed in the winter semester.
+The remaining 50% of the course grade is assessed in the second term.
 
 ### Evaluation Criteria
 
@@ -129,7 +136,7 @@ The use of cell phones or texting is NOT permitted in class. Marks will be deduc
 
 ### Communication
 
-Please use professional language when emailing the professor or teaching assistant.
+Please use professional language when emailing the instructor.
 
 To promote a healthy working environment and work/life balance, please allow 24 hours for us to respond to your email. We are always happy and available to answer questions. However, before sending an email, please check your syllabus; the answer may already be on this document.
 

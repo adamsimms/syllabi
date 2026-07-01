@@ -29,7 +29,7 @@ An advanced studio course in digital photography that builds technical proficien
 
 ### [PHOT 400 – Advanced Workshop in Photography](./PHOT%20400%20%E2%80%93%20Advanced%20Workshop%20in%20Photography/)
 
-A yearlong capstone studio course for final-year photography students developing a sustained research-creation project through proposals, affinities presentations, mid-term and final critiques, gallery visits, and individual mentorship. The fall semester covers the first half of the 6-credit course, culminating in a resolved body of work with written and verbal articulation of conceptual aims.
+A yearlong capstone studio course for final-year photography students developing a sustained research-creation project through proposals, affinities presentations, mid-term and final critiques, gallery visits, and individual mentorship. The first term covers the first half of the 6-credit course, culminating in a resolved body of work with written and verbal articulation of conceptual aims.
 
 - Taught in the [Photography program](https://www.concordia.ca/finearts/studio-arts/photography.html) in the [Studio Arts Department](https://www.concordia.ca/finearts/studio-arts.html) at [Concordia University](https://www.concordia.ca), Fall 2025 – Winter 2025.
 - [Syllabus](./PHOT%20400%20%E2%80%93%20Advanced%20Workshop%20in%20Photography/) · [Assignments](./PHOT%20400%20%E2%80%93%20Advanced%20Workshop%20in%20Photography/assignments.md) · [Schedule](./PHOT%20400%20%E2%80%93%20Advanced%20Workshop%20in%20Photography/schedule.md) · [Resources](./PHOT%20400%20%E2%80%93%20Advanced%20Workshop%20in%20Photography/resources.md)

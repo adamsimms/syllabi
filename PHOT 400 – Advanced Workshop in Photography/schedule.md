@@ -1,4 +1,4 @@
-# Schedule — Fall Semester
+# Schedule
 
 [Syllabus](README.md) · [Assignments](assignments.md) · **Schedule** · [Resources](resources.md)
 
@@ -11,7 +11,7 @@
 
 ## Week 1
 
-- Instructor, teaching assistant, and student introductions
+- Instructor and student introductions
 - Review the course outline, schedule, assignments, and available resources
 - Review research-creation project and proposal requirements
 - Field trip: PHI
@@ -35,8 +35,7 @@
 
 ## Week 4
 
-- Teaching assistants from both PHOT 400 classes present work
-- Professor Adam Simms presents work
+- Instructor presents work
 - Organize mid- and end-of-term critiques
 
 *Photo department fee receipt due.*
@@ -96,17 +95,3 @@
 ## Week 13
 
 - Final presentations and critiques: Group B
-
----
-
-## Other Important Dates
-
-| Deadline | Week |
-|----------|------|
-| Last day to add fall-term and two-term courses | Week 3 |
-| Deadline for withdrawal with tuition refund (DNE) from fall-term and two-term courses | Week 3 |
-| Reading week begins | Week 7 |
-| Reading week ends | Week 7 |
-| Last day for academic withdrawal (DISC) from fall-term courses | Week 13 |
-
-See also: [Concordia undergraduate academic dates](https://www.concordia.ca/students/undergraduate/undergraduate-academic-dates.html)
