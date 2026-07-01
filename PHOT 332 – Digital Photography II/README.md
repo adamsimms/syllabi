@@ -43,10 +43,6 @@ Students will produce a series of smaller projects that reflect advanced technic
 
 Classes will be held on campus at EV 5.709 SGW unless specified otherwise in the [course schedule](schedule.md). In-person attendance is mandatory.
 
-### Class Site
-
-All course materials — syllabus, [assignments](assignments.md), [schedule](schedule.md), and [resources](resources.md) — are published in this repository at [github.com/adamsimms/courses](https://github.com/adamsimms/courses). Check the class site and your email regularly for updates.
-
 ### Remote Classes
 
 In the event that a class will be delivered remotely, students are expected to participate via the Zoom platform.

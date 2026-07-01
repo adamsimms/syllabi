@@ -4,8 +4,10 @@
 
 ## Department
 
-- [Photography Department Equipment List](https://drive.google.com/file/d/1yoijN8ZsveVunOkjpBoDQ4tok9oEyLlu/view?usp=sharing)
+- [Photography Department Equipment List](assets/manuals/photography-equipment-list.pdf)
 - [Centre for Digital Arts (CDA)](http://cda.concordia.ca)
+
+See also [course assets](assets/README.md) — readings, sample files, and manuals stored in this repo.
 
 ---
 
@@ -35,8 +37,8 @@
 
 ## Manuals
 
-- [Imacon Flextight User Guide (Hardware)](https://drive.google.com/file/d/16COOfu5EKTRA60PEzfP9jENmj57A9bfN/view?usp=sharing)
-- [Imacon Flexcolor User Guide (Software)](https://drive.google.com/file/d/1NfYa5CdMZ5mXtTh9IVmLQGsjM9IkC2S4/view?usp=sharing)
+- [Imacon Flextight User Guide (Hardware)](assets/manuals/imacon-flextight-hardware.pdf)
+- [Imacon Flexcolor User Guide (Software)](assets/manuals/imacon-flexcolor-software.pdf)
 
 ---
 

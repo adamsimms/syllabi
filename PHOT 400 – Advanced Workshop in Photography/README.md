@@ -50,10 +50,6 @@ Students are required to undertake an extended black-and-white or colour photogr
 
 All classes will be held on campus at EV 3.645 SGW unless specified otherwise in the [course schedule](schedule.md). In-person attendance is mandatory.
 
-### Class Site
-
-All course materials — syllabus, [assignments](assignments.md), [schedule](schedule.md), and [resources](resources.md) — are published in this repository at [github.com/adamsimms/courses](https://github.com/adamsimms/courses). Check the class site and your email regularly for updates.
-
 ### Individual Meetings
 
 Individual meetings can be arranged by appointment with the instructor.

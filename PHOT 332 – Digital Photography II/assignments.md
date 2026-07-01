@@ -26,12 +26,12 @@ In small groups, students will present and moderate an engaging in-class discuss
 
 | Reading | Week |
 |---------|------|
-| [*Nonhuman Photography*](https://drive.google.com/file/d/16FgB3KFmEbJk-qijPoK5U7UlpbQXwDoI/view?usp=sharing) by Joanna Zylinska | Week 3 |
-| [*Artificial Aesthetics*](https://drive.google.com/file/d/18RfJrptWOBpQTKj_Tw2JWfVKlwmpcyh0/view?usp=sharing) by Lev Manovich + Emanuele Arielli | Week 4 |
-| [*Duty Free Art*](https://drive.google.com/file/d/1QJqQ1S4J7ejzmJZC6iTiOCBZu_6KR2WV/view?usp=sharing) by Hito Steyerl | Week 5 |
-| [*Immediacy or, The Style of Too Late Capitalism*](https://drive.google.com/file/d/1Z9N_ioXo5RoaNFuIfjfOYi8KRl8b5yYk/view?usp=sharing) by Anna Kornbluh | Week 8 |
-| [*Disordered Attention*](https://drive.google.com/file/d/1I5KGhizFQcHanxbBDFXRoOjXaWGzg_pt/view?usp=drive_link) by Claire Bishop | Week 9 |
-| [*The Perception Machine*](https://drive.google.com/file/d/1gx-dqOhfKolLktYiyIkUXXvKtMLu6hQu/view?usp=sharing) by Joanna Zylinska | Week 10 |
+| [*Nonhuman Photography*](assets/readings/nonhuman-photography.pdf) by Joanna Zylinska | Week 3 |
+| [*Artificial Aesthetics*](assets/readings/artificial-aesthetics.pdf) by Lev Manovich + Emanuele Arielli | Week 4 |
+| [*Duty Free Art*](assets/readings/duty-free-art.pdf) by Hito Steyerl | Week 5 |
+| [*Immediacy or, The Style of Too Late Capitalism*](assets/readings/immediacy.pdf) by Anna Kornbluh | Week 8 |
+| [*Disordered Attention*](assets/readings/disordered-attention.pdf) by Claire Bishop | Week 9 |
+| [*The Perception Machine*](assets/readings/perception-machine.pdf) by Joanna Zylinska | Week 10 |
 
 ### Evaluation Criteria
 

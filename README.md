@@ -1,6 +1,6 @@
 # Courses
 
-This repository is the **class site** for Adam Simms's Concordia Photography courses. Each course has a syllabus, assignments, schedule, and resources. Shared policies and student services live in [`_shared/`](./_shared/).
+This repository holds course materials for Adam Simms's Concordia Photography courses. Each course has a syllabus, assignments, schedule, and resources. Shared policies and student services live in [`_shared/`](./_shared/).
 
 ---
 
@@ -25,3 +25,7 @@ A yearlong capstone studio course for final-year photography students developing
 Copy [`_template/`](./_template/) to a new folder and fill in the placeholders. Shared content (land acknowledgement, grading scale, rules, student services) is linked from the template — update it once in `_shared/` when policies change.
 
 When updating an existing offering for a new term, consider archiving the previous term in a subfolder (e.g. `2025-winter/`) rather than overwriting in place.
+
+## Cloning with assets
+
+Course files (readings, samples, RAWs) are stored with [Git LFS](https://git-lfs.com/). After cloning, run `git lfs pull` if large files are missing. To refresh PHOT 332 assets from Google Drive: `./scripts/sync-phot332-assets.sh`

@@ -18,7 +18,7 @@ Please use professional language when emailing the professor or teaching assista
 
 To promote a healthy working environment and work/life balance, please allow 24 hours for us to respond to your email. We are always happy and available to answer questions. However, before sending an email, please check your syllabus; the answer may already be on this document.
 
-Students are responsible for regularly checking their email and our [class site](https://github.com/adamsimms/courses) for updates regarding the course. For communications requiring privacy, students can contact the instructor directly via email or book an individual meeting.
+Students are responsible for regularly checking their email for updates regarding the course. For communications requiring privacy, students can contact the instructor directly via email or book an individual meeting.
 
 ### Deadlines
 

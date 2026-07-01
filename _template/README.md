@@ -45,10 +45,6 @@ See [shared land acknowledgement](../_shared/land-acknowledgement.md).
 
 Classes will be held on campus at LOCATION unless specified otherwise in the [course schedule](schedule.md). In-person attendance is mandatory.
 
-### Class Site
-
-All course materials — syllabus, [assignments](assignments.md), [schedule](schedule.md), and [resources](resources.md) — are published in this repository at [github.com/adamsimms/courses](https://github.com/adamsimms/courses). Check the class site and your email regularly for updates.
-
 ### Remote Classes
 
 <!-- Optional. Delete if not applicable. -->
