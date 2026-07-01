@@ -1,11 +1,13 @@
 # Resources
 
-## Course Hubs
+[← Courses](../README.md) · [Syllabus](README.md) · [Assignments](assignments.md) · [Schedule](schedule.md) · **Resources**
 
-- [Photography Moodle Hub](https://moodle.concordia.ca/moodle/course/view.php?id=127064)
-- [Studio Arts Department Moodle Hub](https://moodle.concordia.ca/moodle/course/view.php?id=134816)
-- [Photography Department Equipment List](https://drive.google.com/file/d/1yoijN8ZsveVunOkjpBoDQ4tok9oEyLlu/view?usp=sharing)
+## Department
+
+- [Photography Department Equipment List](assets/manuals/photography-equipment-list.pdf)
 - [Centre for Digital Arts (CDA)](http://cda.concordia.ca)
+
+See also [course assets](assets/README.md) — readings, sample files, and manuals stored in this repo.
 
 ---
 
@@ -35,14 +37,17 @@
 
 ## Manuals
 
-- [Imacon Flextight User Guide (Hardware)](https://drive.google.com/file/d/16COOfu5EKTRA60PEzfP9jENmj57A9bfN/view?usp=sharing)
-- [Imacon Flexcolor User Guide (Software)](https://drive.google.com/file/d/1NfYa5CdMZ5mXtTh9IVmLQGsjM9IkC2S4/view?usp=sharing)
+- [Imacon Flextight User Guide (Hardware)](assets/manuals/imacon-flextight-hardware.pdf)
+- [Imacon Flexcolor User Guide (Software)](assets/manuals/imacon-flexcolor-software.pdf)
 
 ---
 
 ## Student Services
 
-The Concordia Student Union offers students many resources including:
+See [shared student services](../_shared/student-services.md).
 
-1. **HOJO (Off Campus Housing and Job Bank):** [csu.qc.ca/services/housing-and-job-bank-hojo/](https://csu.qc.ca/services/housing-and-job-bank-hojo/)
-2. **CSU Advocacy Centre:** [csu.qc.ca/services/advocacy-centre/](https://csu.qc.ca/services/advocacy-centre/)
+---
+
+## Important Contacts
+
+See [shared important contacts](../_shared/important-contacts.md).

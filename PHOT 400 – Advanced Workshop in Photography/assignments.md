@@ -1,5 +1,7 @@
 # Assignments
 
+[← Courses](../README.md) · [Syllabus](README.md) · **Assignments** · [Schedule](schedule.md) · [Resources](resources.md)
+
 Students will be required to present in-progress work, engage in group critiques, and complete a final research-creation project. A brief overview of each assignment is outlined below, but additional details, requirements, and grading rubrics will be provided throughout the semester. Students will receive a graded assessment after each assignment.
 
 Students must respect their assigned presentation slots. Attendance at all critiques is mandatory; failure to attend will negatively impact the participation grade, potentially leading to a failing mark.
@@ -43,15 +45,7 @@ Students are required to present their final yearlong project along with a succi
 
 ## Class Participation (10%)
 
-Critical feedback and involvement in class discussions and presentations are required.
-
----
-
-## Affinities Presentations
-
-**Scheduled:** Week 6
-
-Students present the work of other artists with whom they have affinities. See [schedule](schedule.md) for details. Expectations are reviewed in Week 5.
+Critical feedback and involvement in class discussions and presentations are required. This includes affinities presentations in Week 6, where students present the work of artists with whom they have affinities. See [schedule](schedule.md) for details. Expectations are reviewed in Week 5.
 
 ---
 
