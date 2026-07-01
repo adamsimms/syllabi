@@ -1,9 +1,9 @@
 # Resources
 
-## Course Hubs
+[← Courses](../README.md) · [Syllabus](README.md) · [Assignments](assignments.md) · [Schedule](schedule.md) · **Resources**
 
-- [Photography Moodle Hub](https://moodle.concordia.ca/moodle/course/view.php?id=127064)
-- [Studio Arts Department Moodle Hub](https://moodle.concordia.ca/moodle/course/view.php?id=134816)
+## Department
+
 - [Photography Department Equipment List](https://drive.google.com/file/d/1yoijN8ZsveVunOkjpBoDQ4tok9oEyLlu/view?usp=sharing)
 - [Centre for Digital Arts (CDA)](http://cda.concordia.ca)
 
@@ -42,7 +42,10 @@
 
 ## Student Services
 
-The Concordia Student Union offers students many resources including:
+See [shared student services](../_shared/student-services.md).
 
-1. **HOJO (Off Campus Housing and Job Bank):** [csu.qc.ca/services/housing-and-job-bank-hojo/](https://csu.qc.ca/services/housing-and-job-bank-hojo/)
-2. **CSU Advocacy Centre:** [csu.qc.ca/services/advocacy-centre/](https://csu.qc.ca/services/advocacy-centre/)
+---
+
+## Important Contacts
+
+See [shared important contacts](../_shared/important-contacts.md).

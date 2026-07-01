@@ -1,5 +1,7 @@
 # Assignments
 
+[← Courses](../README.md) · [Syllabus](README.md) · **Assignments** · [Schedule](schedule.md) · [Resources](resources.md)
+
 ---
 
 ## Assignment #1: Group Presentations (20%)

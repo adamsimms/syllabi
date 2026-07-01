@@ -6,6 +6,8 @@
 
 - [Centre for Digital Arts (CDA)](http://cda.concordia.ca)
 
+<!-- Add course-specific links: equipment lists, demo videos, software guides, readings, etc. -->
+
 ---
 
 ## Student Services
