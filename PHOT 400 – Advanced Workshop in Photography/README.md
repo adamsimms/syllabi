@@ -2,9 +2,9 @@
 
 **Syllabus** · [Assignments](assignments.md) · [Schedule](schedule.md) · [Resources](resources.md)
 
-> Taught by Adam Simms · [Photography program](https://www.concordia.ca/finearts/studio-arts/photography.html) in the [Studio Arts Department](https://www.concordia.ca/finearts/studio-arts.html) at [Concordia University](https://www.concordia.ca)
-
 ## Course Details
+
+> Taught by Adam Simms · [Photography program](https://www.concordia.ca/finearts/studio-arts/photography.html) in the [Studio Arts Department](https://www.concordia.ca/finearts/studio-arts.html) at [Concordia University](https://www.concordia.ca)
 
 - **Credits:** 6-credit course (26 weeks across two terms)
 - **Time:** Thursdays, 1:30–5:30 PM
