@@ -11,7 +11,7 @@ Please note that the following schedule is subject to change.
 
 - Introductions
 - Review course outline
-- [Welcome survey](https://forms.gle/BZGqhDnpn4QzWHwu9)
+- Welcome survey
 - Capturing and basic image management
 - Presentation schedule
 - Assignment #2 overview
@@ -105,7 +105,7 @@ Please note that the following schedule is subject to change.
 
 ## Week 11 (EV 3.635)
 
-- Individual meetings (optional) — [Book a meeting](https://moodle.concordia.ca/moodle/mod/scheduler/view.php?id=3018416)
+- Individual meetings (optional)
 - Studio time
 
 ---
