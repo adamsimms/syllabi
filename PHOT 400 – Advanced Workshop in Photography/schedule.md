@@ -5,8 +5,6 @@
 **Time:** Thursdays, 1:30–5:30 PM  
 **Location:** EV 3.645 SGW unless otherwise noted.
 
-*Subject to change.*
-
 ---
 
 ## Week 1
