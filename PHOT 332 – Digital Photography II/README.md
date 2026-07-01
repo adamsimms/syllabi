@@ -2,17 +2,12 @@
 
 ## Instructor
 
-**Adam Simms**  
-adam.simms@concordia.ca
-
-## Teaching Assistant
-
-**Michelle Caron-Pawlowsky**  
-michmtl@me.com
+**Adam Simms**
 
 ## Course Details
 
-- **Credits:** 3-credit course (approximately 3–4 months)
+- **Credits:** 3-credit course
+- **Length:** 13 weeks
 - **Time:** Wednesdays, 8:30 AM–12:30 PM
 - **Location:** EV 5.709 SGW
 
@@ -145,7 +140,7 @@ The use of cell phones or texting is NOT permitted in class. Marks will be deduc
 
 ### Communication
 
-Please use professional language when emailing the professor or teaching assistant.
+Please use professional language when emailing the professor.
 
 To promote a healthy working environment and work/life balance, please allow 24 hours for us to respond to your email. We are always happy and available to answer questions. However, before sending an email, please check your syllabus; the answer may already be on this document.
 
