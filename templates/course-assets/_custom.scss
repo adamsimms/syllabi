@@ -69,33 +69,8 @@
   margin: 0 0.35rem;
 }
 
-.course-crosslinks {
-  margin-top: 1.5rem;
-  padding-top: 1rem;
-  border-top: 1px solid var(--course-border);
-  font-size: 0.9rem;
-  color: var(--course-text-muted);
-}
-
-.course-crosslinks-hub {
-  display: inline-block;
-  margin-bottom: 0.5rem;
-  color: var(--course-text);
-  border-bottom: 1px solid var(--course-link-underline);
-}
-
-.course-crosslinks-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.35rem 1rem;
-}
-
-.course-crosslinks-list a {
-  color: inherit;
-  border-bottom: 1px solid var(--course-link-underline);
+.book-menu nav > ul.course-sidebar-crosslinks {
+  margin-top: 1.25rem;
 }
 
 .book-copyright {
@@ -202,6 +177,36 @@
 /* Hide TOC on home page only */
 .book-kind-home .book-toc {
   display: none !important;
+}
+
+/* Table of contents — de-emphasized sidebar */
+.book-toc {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.book-toc nav#TableOfContents a,
+.book-header aside nav#TableOfContents a {
+  color: inherit;
+  border-bottom: none;
+}
+
+.book-toc nav#TableOfContents a:hover,
+.book-header aside nav#TableOfContents a:hover {
+  color: var(--course-text);
+}
+
+.book-toc nav#TableOfContents ul ul a,
+.book-header aside nav#TableOfContents ul ul a {
+  color: rgba(0, 0, 0, 0.32);
+}
+
+.book-toc nav#TableOfContents ul ul a:hover,
+.book-header aside nav#TableOfContents ul ul a:hover {
+  color: var(--course-text-muted);
+}
+
+.book-header aside {
+  color: rgba(0, 0, 0, 0.4);
 }
 
 /* Home page — image only */
@@ -311,7 +316,6 @@
   .book-header,
   .book-footer,
   .book-toc,
-  .course-crosslinks,
   .course-footer-utils {
     display: none !important;
   }

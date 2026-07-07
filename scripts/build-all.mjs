@@ -27,6 +27,11 @@ const HUB_DESCRIPTION =
   "Open course materials for undergraduate photography courses taught by Adam Simms at Concordia University.";
 const HUB_URL = `${SITE_ORIGIN}/`;
 const HUB_IMAGE = `${SITE_ORIGIN}/phot331/images/og-square.jpg`;
+const INSTRUCTOR_NAME = "Adam Simms";
+const INSTRUCTOR_URL = "https://www.concordia.ca/faculty/adam-simms.html";
+const INSTRUCTOR_BIO =
+  "Artist-in-residence, Studio Arts · Photography, New Media, and Design";
+const HUB_ASSETS_DIR = path.join(rootDir, "assets/hub");
 
 function run(command, cwd) {
   execSync(command, {
@@ -47,15 +52,36 @@ function escapeHtml(value) {
     .replaceAll('"', "&quot;");
 }
 
+function writeHubAssets() {
+  const destination = path.join(distDir, "images");
+  fs.mkdirSync(destination, { recursive: true });
+
+  for (const entry of fs.readdirSync(HUB_ASSETS_DIR, { withFileTypes: true })) {
+    if (!entry.isFile()) continue;
+    fs.copyFileSync(path.join(HUB_ASSETS_DIR, entry.name), path.join(destination, entry.name));
+  }
+}
+
 function writeCoursesIndex() {
   const items = courses
     .map(
       (course) => `<li>
-  <a href="/${course.slug}/">
-    <span class="code">${escapeHtml(course.code)}</span>
-    <span class="title">${escapeHtml(course.title)}</span>
+  <a class="course-card" href="/${course.slug}/">
+    <img
+      class="course-thumb"
+      src="/${course.slug}/images/og-square.jpg"
+      alt=""
+      width="72"
+      height="72"
+      loading="lazy"
+      decoding="async"
+    >
+    <span class="course-text">
+      <span class="code">${escapeHtml(course.code)}</span>
+      <span class="title">${escapeHtml(course.title)}</span>
+      <span class="description">${escapeHtml(course.description)}</span>
+    </span>
   </a>
-  <p class="description">${escapeHtml(course.description)}</p>
 </li>`
     )
     .join("\n");
@@ -151,8 +177,56 @@ function writeCoursesIndex() {
     }
 
     .lede {
-      margin: 0 0 2.5rem;
+      margin: 0 0 1.5rem;
       color: var(--muted);
+    }
+
+    .instructor {
+      display: grid;
+      grid-template-columns: 3.5rem 1fr;
+      gap: 1rem;
+      align-items: center;
+      margin: 0 0 2.5rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid var(--border);
+      color: inherit;
+    }
+
+    .instructor:hover,
+    .instructor:focus-visible {
+      color: inherit;
+      border-bottom-color: var(--border);
+    }
+
+    .instructor:hover .instructor-name,
+    .instructor:focus-visible .instructor-name {
+      color: var(--accent);
+    }
+
+    .instructor-photo {
+      display: block;
+      width: 3.5rem;
+      height: 3.5rem;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    .instructor-text {
+      display: flex;
+      flex-direction: column;
+      gap: 0.15rem;
+      min-width: 0;
+    }
+
+    .instructor-name {
+      font-weight: 500;
+      transition: color 0.15s ease;
+    }
+
+    .instructor-bio {
+      color: var(--muted);
+      font-size: 0.95rem;
+      line-height: 1.45;
     }
 
     ul {
@@ -162,20 +236,56 @@ function writeCoursesIndex() {
     }
 
     li {
-      padding: 1.25rem 0;
       border-top: 1px solid var(--border);
     }
 
     a {
-      color: inherit;
+      color: var(--text);
       text-decoration: none;
       border-bottom: 1px solid var(--link-underline);
+      transition: color 0.15s ease, border-bottom-color 0.15s ease;
     }
 
-    a:hover { border-bottom-color: var(--accent); }
+    a:hover,
+    a:focus-visible {
+      color: var(--accent);
+      border-bottom-color: var(--accent);
+    }
+
+    .course-card {
+      display: grid;
+      grid-template-columns: 4.5rem 1fr;
+      gap: 1.15rem;
+      align-items: start;
+      padding: 1.25rem 0;
+      color: inherit;
+      border-bottom: none;
+    }
+
+    .course-card:hover,
+    .course-card:focus-visible {
+      color: inherit;
+    }
+
+    .course-card:hover .title,
+    .course-card:focus-visible .title {
+      color: var(--accent);
+    }
+
+    .course-thumb {
+      display: block;
+      width: 4.5rem;
+      height: 4.5rem;
+      object-fit: cover;
+    }
+
+    .course-text {
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+    }
 
     .code {
-      display: block;
       font-size: 0.85rem;
       letter-spacing: 0.04em;
       text-transform: uppercase;
@@ -184,9 +294,10 @@ function writeCoursesIndex() {
     }
 
     .title {
-      display: block;
       font-size: 1.15rem;
       font-weight: 500;
+      line-height: 1.35;
+      transition: color 0.15s ease;
     }
 
     .description {
@@ -202,12 +313,31 @@ function writeCoursesIndex() {
       color: var(--muted);
       font-size: 0.9rem;
     }
+
+    footer a {
+      color: var(--muted);
+    }
   </style>
 </head>
 <body>
   <main>
     <h1>Photography Courses</h1>
-    <p class="lede">Open course materials for undergraduate photography courses taught by <a href="https://www.concordia.ca/faculty/adam-simms.html">Adam Simms</a> at <a href="https://www.concordia.ca">Concordia University</a>.</p>
+    <p class="lede">Open course materials for undergraduate photography courses at <a href="https://www.concordia.ca">Concordia University</a>.</p>
+    <a class="instructor" href="${INSTRUCTOR_URL}">
+      <img
+        class="instructor-photo"
+        src="/images/adam-simms.jpg"
+        alt="${escapeHtml(INSTRUCTOR_NAME)}"
+        width="56"
+        height="56"
+        loading="lazy"
+        decoding="async"
+      >
+      <span class="instructor-text">
+        <span class="instructor-name">${escapeHtml(INSTRUCTOR_NAME)}</span>
+        <span class="instructor-bio">${escapeHtml(INSTRUCTOR_BIO)}</span>
+      </span>
+    </a>
     <ul>
 ${items}
     </ul>
@@ -313,6 +443,7 @@ for (const course of courses) {
   fs.cpSync(output, destination, { recursive: true });
 }
 
+writeHubAssets();
 writeCoursesIndex();
 writeRedirects();
 writeHeaders();

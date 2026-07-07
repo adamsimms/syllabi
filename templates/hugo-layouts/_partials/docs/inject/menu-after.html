@@ -1,0 +1,9 @@
+{{ with site.Data.related_courses }}
+<ul class="course-sidebar-crosslinks">
+  <li><a>Other courses</a></li>
+  <li><a href="https://syllabi.adamsimms.xyz/">All courses</a></li>
+  {{- range . -}}
+  <li><a href="{{ .url }}">{{ .code }} — {{ .title }}</a></li>
+  {{- end -}}
+</ul>
+{{ end }}
