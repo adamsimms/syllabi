@@ -1,0 +1,15 @@
+{
+  "name": "phot398-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node ./node_modules/@11ty/eleventy/cmd.cjs",
+    "serve": "node ./node_modules/@11ty/eleventy/cmd.cjs --serve",
+    "clean": "rm -rf _site"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "markdown-it": "^14.1.0",
+    "markdown-it-anchor": "^9.2.0"
+  }
+}
