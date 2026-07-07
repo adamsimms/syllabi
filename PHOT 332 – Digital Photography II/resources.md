@@ -7,7 +7,7 @@
 - [Photography Department Equipment List](assets/manuals/photography-equipment-list.pdf)
 - [Centre for Digital Arts (CDA)](http://cda.concordia.ca)
 
-See also [course assets](assets/README.md) — readings, sample files, and manuals stored in this repo.
+See also [course assets](assets/README.md) — sample files and manuals stored in this repo. Assigned readings link to publisher and official sources (see [assignments](assignments.md) and [schedule](schedule.md)).
 
 ---
 

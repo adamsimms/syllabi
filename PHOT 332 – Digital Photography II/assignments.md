@@ -26,12 +26,12 @@ In small groups, students will present and moderate an engaging in-class discuss
 
 | Reading | Week |
 |---------|------|
-| [*Nonhuman Photography*](assets/readings/nonhuman-photography.pdf) by Joanna Zylinska | Week 3 |
-| [*Artificial Aesthetics*](assets/readings/artificial-aesthetics.pdf) by Lev Manovich + Emanuele Arielli | Week 4 |
-| [*Duty Free Art*](assets/readings/duty-free-art.pdf) by Hito Steyerl | Week 5 |
-| [*Immediacy or, The Style of Too Late Capitalism*](assets/readings/immediacy.pdf) by Anna Kornbluh | Week 8 |
-| [*Disordered Attention*](assets/readings/disordered-attention.pdf) by Claire Bishop | Week 9 |
-| [*The Perception Machine*](assets/readings/perception-machine.pdf) by Joanna Zylinska | Week 10 |
+| [*Nonhuman Photography*](https://mitpress.mit.edu/9780262552622/nonhuman-photography/) by Joanna Zylinska · [Companion site](https://www.nonhuman.photography/) | Week 3 |
+| [*Artificial Aesthetics*](https://manovich.net/index.php/projects/artificial-aesthetics) by Lev Manovich + Emanuele Arielli · Chapter 5 | Week 4 |
+| [*Duty Free Art*](https://www.versobooks.com/products/486-duty-free-art) by Hito Steyerl · [Original essay (e-flux)](https://www.e-flux.com/journal/63/60894/duty-free-art) | Week 5 |
+| [*Immediacy or, The Style of Too Late Capitalism*](https://www.versobooks.com/products/3031-immediacy-or-the-style-of-too-late-capitalism) by Anna Kornbluh · “Imaginary” | Week 8 |
+| [*Disordered Attention*](https://www.versobooks.com/products/2942-disordered-attention) by Claire Bishop | Week 9 |
+| [*The Perception Machine*](https://www.nonhuman.photography/perception-machine) by Joanna Zylinska · [MIT Press](https://mitpress.mit.edu/9780262546836/the-perception-machine/) | Week 10 |
 
 ### Evaluation Criteria
 
