@@ -168,18 +168,20 @@ function writeCoursesIndex() {
       max-width: var(--max-width);
       margin: 0 auto;
       display: grid;
-      grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
+      grid-template-columns: minmax(0, 1fr) var(--sidebar-width);
       gap: 2.5rem 3rem;
       align-items: start;
     }
 
-    .sidebar {
-      position: sticky;
-      top: 2rem;
+    .content {
+      grid-column: 1;
+      min-width: 0;
     }
 
-    .content {
-      min-width: 0;
+    .sidebar {
+      grid-column: 2;
+      position: sticky;
+      top: 2rem;
     }
 
     h1 {
@@ -350,10 +352,15 @@ function writeCoursesIndex() {
     @media (max-width: 720px) {
       main {
         grid-template-columns: 1fr;
-        gap: 2rem;
+      }
+
+      .content,
+      .sidebar {
+        grid-column: 1;
       }
 
       .sidebar {
+        order: -1;
         position: static;
         padding-bottom: 1.5rem;
         border-bottom: 1px solid var(--border);
@@ -372,6 +379,17 @@ function writeCoursesIndex() {
 </head>
 <body>
   <main>
+    <div class="content">
+      <h1>${escapeHtml(HUB_HEADING)}</h1>
+      <p class="lede">${escapeHtml(HUB_LEDE)}</p>
+      <ul>
+${items}
+      </ul>
+      <footer>
+        <a href="https://github.com/adamsimms/syllabi">Source on GitHub</a> ·
+        <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
+      </footer>
+    </div>
     <aside class="sidebar">
       <a class="instructor" href="${INSTRUCTOR_URL}">
         <img
@@ -389,17 +407,6 @@ function writeCoursesIndex() {
         </span>
       </a>
     </aside>
-    <div class="content">
-      <h1>${escapeHtml(HUB_HEADING)}</h1>
-      <p class="lede">${escapeHtml(HUB_LEDE)}</p>
-      <ul>
-${items}
-      </ul>
-      <footer>
-        <a href="https://github.com/adamsimms/syllabi">Source on GitHub</a> ·
-        <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
-      </footer>
-    </div>
   </main>
 </body>
 </html>`;
