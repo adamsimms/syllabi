@@ -6,7 +6,7 @@
     "title": "Digital Photography I",
     "term": "Winter 2025",
     "description": "Introductory digital photography: scanning, RAW processing, colour management, printing, and composite image-making.",
-    "tags": ["digital photography", "RAW", "colour management", "printing", "scanning"]
+    "tags": ["scanning", "RAW processing", "colour management", "Photoshop", "printing", "compositing"]
   },
   {
     "slug": "phot332",
@@ -15,7 +15,7 @@
     "title": "Digital Photography II",
     "term": "Winter 2025",
     "description": "Advanced digital photography building technical proficiency and a personalized artistic vision through workshops and major assignments.",
-    "tags": ["digital photography", "workshops", "artistic vision", "assignments", "studio"]
+    "tags": ["digital culture", "AI", "media theory", "Photoshop", "printing", "image circulation"]
   },
   {
     "slug": "phot398",
@@ -24,7 +24,7 @@
     "title": "As Seen on Screens: Cyberspace & Image Economy",
     "term": null,
     "description": "Remote studio course on digital image circulation, net art, and post-internet practices with an online research-creation project.",
-    "tags": ["net art", "post-internet", "image economy", "research-creation", "remote studio"]
+    "tags": ["net art", "post-internet", "image circulation", "surveillance capitalism", "research-creation"]
   },
   {
     "slug": "phot400",
@@ -33,6 +33,6 @@
     "title": "Advanced Workshop in Photography",
     "term": "Fall 2025 – Winter 2025",
     "description": "Yearlong capstone studio for final-year students developing a sustained research-creation project through critiques and mentorship.",
-    "tags": ["capstone", "workshop", "critique", "research-creation", "studio"]
+    "tags": ["capstone", "critique", "photography theory", "gallery visits", "body of work"]
   }
 ]
