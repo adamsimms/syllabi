@@ -4,7 +4,9 @@
 
 ## Course Details
 
-> Winter 2025: Taught by [Adam Simms](https://www.concordia.ca/faculty/adam-simms.html) with Teaching Assistant Michelle Caron-Pawlowsky · [Photography program](https://www.concordia.ca/finearts/studio-arts/photography.html) in the [Studio Arts Department](https://www.concordia.ca/finearts/studio-arts.html) at [Concordia University](https://www.concordia.ca)
+**Instructor:** [Adam Simms](https://www.concordia.ca/faculty/adam-simms.html)
+
+**Teaching Assistant:** Michelle Caron-Pawlowsky
 
 - **Credits:** 3-credit course
 - **Length:** 13 weeks
@@ -134,7 +136,7 @@ Please use professional language when emailing the professor or teaching assista
 
 To promote a healthy working environment and work/life balance, please allow 24 hours for us to respond to your email. We are always happy and available to answer questions. However, before sending an email, please check your syllabus; the answer may already be on this document.
 
-Students are responsible for regularly checking their email for updates regarding the course. For communications requiring privacy, students can contact the instructor directly via email or book an individual meeting.
+Students are responsible for regularly checking their email for updates regarding the course. For communications requiring privacy, [book an individual meeting](https://cal.com/adam-simms-ivi9mt/1-hour-meeting) with the instructor.
 
 ### Deadlines
 
