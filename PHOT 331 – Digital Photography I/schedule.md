@@ -43,7 +43,7 @@ Please note that the following schedule is subject to change.
 
 - Image correction techniques: selections, masks, repairing, etc.
 - Printing workflow
-- Class discussion on reading #1: [*The Digital Divide*](assets/readings/digital-divide.pdf) by Claire Bishop
+- Class discussion on reading #1: [*The Digital Divide*](https://www.artforum.com/features/digital-divide-contemporary-art-and-new-media-200814/) by Claire Bishop
 
 *Course fees due. Please email receipt to the teaching assistant.*
 

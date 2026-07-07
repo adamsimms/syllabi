@@ -2,12 +2,12 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { siteUrl } from "../../../scripts/site-path.mjs";
+import { externalAssetUrl } from "../../../scripts/sample-releases.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const courseDir = path.resolve(__dirname, "../..");
 const courseFolder = path.basename(courseDir);
 const hugoSiteDir = path.resolve(__dirname, "..");
-const GITHUB_RAW_BASE = "https://github.com/adamsimms/syllabi/raw/main";
 const PAGES_MAX_ASSET_BYTES = 24 * 1024 * 1024;
 
 function internalUrl(relativePath) {
@@ -87,10 +87,16 @@ export function rewriteMdLinksMarkdown(text) {
   });
 
   result = result.replace(/\[([^\]]+)\]\((assets\/[^)]+)\)/g, (_, label, assetPath) => {
+    const releaseUrl = externalAssetUrl(courseFolder, assetPath);
+    if (releaseUrl) {
+      return `[${label}](${releaseUrl})`;
+    }
+
     const sourcePath = path.join(courseDir, assetPath);
     if (fs.existsSync(sourcePath) && fs.statSync(sourcePath).size > PAGES_MAX_ASSET_BYTES) {
-      const githubPath = encodeURI(`${courseFolder}/${assetPath}`);
-      return `[${label}](${GITHUB_RAW_BASE}/${githubPath})`;
+      throw new Error(
+        `Asset ${assetPath} exceeds the Pages size limit but is not listed in scripts/sample-releases.mjs`
+      );
     }
     return `[${label}](${internalUrl(`/${assetPath}`)})`;
   });

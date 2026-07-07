@@ -58,7 +58,9 @@ When updating an existing offering for a new term, consider archiving the previo
 
 ## Cloning with assets
 
-Course files (readings, samples, RAWs) are stored with [Git LFS](https://git-lfs.com/). After cloning, run `git lfs pull` if large files are missing.
+Course files (PDFs, small archives) are stored with [Git LFS](https://git-lfs.com/). After cloning, run `git lfs pull` if files are missing.
+
+Large PHOT 332 sample archives (~2.4 GB total) are on [GitHub Releases](https://github.com/adamsimms/syllabi/releases/tag/phot332-winter-2025-samples), not in git — see `scripts/sample-releases.mjs`.
 
 ## Publishing
 
@@ -81,7 +83,7 @@ Cloudflare Pages project: **adamsimms-xyz-syllabi** (`wrangler.toml`). Preview: 
 
 Connect the GitHub repo for automatic deploys on push to `main`. Add custom domain `syllabi.adamsimms.xyz` under Custom domains.
 
-Large PHOT 332 sample archives (>24 MiB) are linked from GitHub rather than hosted on Pages.
+PDFs and small assets sync via Git LFS during the build. Sample archives over 24 MiB are served from GitHub Releases, not Pages.
 
 ## License
 
