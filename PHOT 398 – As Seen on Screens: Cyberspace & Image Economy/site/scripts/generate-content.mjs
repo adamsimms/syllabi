@@ -24,7 +24,7 @@ runCourseGenerator({
       seoKey: "moodle-responses",
       section: "Moodle Responses",
       pageTitle: "Moodle Responses",
-      sourceAnchor: "moodle-responses",
+      sourceAnchor: "moodle-responses-10",
     },
     {
       path: "assignments/group-presentation.md",
@@ -33,7 +33,7 @@ runCourseGenerator({
       seoKey: "group-presentation",
       section: "Group Presentation",
       pageTitle: "Group Presentations",
-      sourceAnchor: "group-presentation",
+      sourceAnchor: "group-presentation--discussion-20",
     },
     {
       path: "assignments/research-creation-project.md",
@@ -42,7 +42,7 @@ runCourseGenerator({
       seoKey: "research-creation-project",
       section: "Research-Creation Project",
       pageTitle: "Research-Creation Project",
-      sourceAnchor: "research-creation-project",
+      sourceAnchor: "research-creation-project-50",
     },
   ],
 });
