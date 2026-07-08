@@ -4,7 +4,7 @@
     "siteDir": "PHOT 300 – Photographic Vision: Theory & Practice II/site",
     "code": "PHOT 300",
     "title": "Photographic Vision: Theory & Practice II",
-    "term": "Fall 2024 – Winter 2025",
+    "term": "Fall 2024",
     "description": "Intermediate studio supporting a yearlong research-creation project through critiques, theory, gallery visits, and mentorship.",
     "tags": ["critique", "photography theory", "research-creation", "studio practice"]
   },
@@ -13,7 +13,7 @@
     "siteDir": "PHOT 331 – Digital Photography I/site",
     "code": "PHOT 331",
     "title": "Digital Photography I",
-    "term": "Winter 2025",
+    "term": "Winter 2022, Winter 2025",
     "description": "Introductory digital photography: scanning, RAW processing, colour management, printing, and composite image-making.",
     "tags": ["scanning", "RAW processing", "colour management", "Photoshop", "printing", "compositing"]
   },
@@ -31,7 +31,7 @@
     "siteDir": "PHOT 398 – As Seen on Screens: Cyberspace & Image Economy/site",
     "code": "PHOT 398",
     "title": "As Seen on Screens: Cyberspace & Image Economy",
-    "term": null,
+    "term": "Fall 2021",
     "description": "Remote studio course on digital image circulation, net art, and post-internet practices with an online research-creation project.",
     "tags": ["net art", "post-internet", "image circulation", "remix culture", "research-creation"]
   },
@@ -40,7 +40,7 @@
     "siteDir": "PHOT 400 – Advanced Workshop in Photography/site",
     "code": "PHOT 400",
     "title": "Advanced Workshop in Photography",
-    "term": "Fall 2025 – Winter 2025",
+    "term": "Fall 2024",
     "description": "Yearlong capstone studio for final-year students developing a sustained research-creation project through critiques and mentorship.",
     "tags": ["critique", "photography theory", "research-creation"]
   }
