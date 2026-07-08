@@ -25,6 +25,7 @@ import {
   INSTRUCTOR_NAME,
   INSTRUCTOR_URL,
   INSTRUCTOR_BIO,
+  INSTRUCTOR_TAGS,
   hubJsonLd,
 } from "./hub-seo.mjs";
 
@@ -60,12 +61,12 @@ function escapeHtml(value) {
     .replaceAll('"', "&quot;");
 }
 
-function renderTags(tags) {
+function renderTags(tags, { listClass = "tags", itemClass = "tag" } = {}) {
   if (!tags?.length) return "";
   const chips = tags
-    .map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`)
+    .map((tag) => `<span class="${itemClass}">${escapeHtml(tag)}</span>`)
     .join("");
-  return `<span class="tags">${chips}</span>`;
+  return `<span class="${listClass}">${chips}</span>`;
 }
 
 function writeHubAssets() {
@@ -249,6 +250,23 @@ function writeCoursesIndex() {
       line-height: 1.45;
     }
 
+    .instructor-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+      margin-top: 0.35rem;
+    }
+
+    .instructor-tag {
+      font-size: 0.72rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--muted);
+      border: 1px solid var(--border);
+      padding: 0.12rem 0.45rem;
+      line-height: 1.35;
+    }
+
     ul {
       list-style: none;
       margin: 0;
@@ -425,6 +443,10 @@ ${items}
         <span class="instructor-text">
           <span class="instructor-name">${escapeHtml(INSTRUCTOR_NAME)}</span>
           <span class="instructor-bio">${escapeHtml(INSTRUCTOR_BIO)}</span>
+          ${renderTags(INSTRUCTOR_TAGS, {
+            listClass: "instructor-tags",
+            itemClass: "instructor-tag",
+          })}
         </span>
       </a>
     </aside>
