@@ -3,6 +3,22 @@ export const SITE_ORIGIN = "https://syllabi.adamsimms.xyz";
 const institution = "Concordia University";
 
 export const pageSeo = {
+  phot300: {
+    site: `PHOT 300 Photographic Vision: Theory & Practice II — open syllabus and course materials taught by Adam Simms at ${institution}.`,
+    home: `PHOT 300 Photographic Vision: Theory & Practice II — intermediate studio syllabus at ${institution}.`,
+    overview: `Full syllabus for PHOT 300 Photographic Vision: Theory & Practice II at ${institution}: prerequisites, course description, objectives, grading, and materials.`,
+    delivery: `Delivery format and studio schedule for PHOT 300 Photographic Vision: Theory & Practice II at ${institution}.`,
+    schedule: `Week-by-week schedule for PHOT 300 Photographic Vision: Theory & Practice II (Fall 2024 – Winter 2025).`,
+    rules: `Course policies for PHOT 300 Photographic Vision: Theory & Practice II — attendance, late work, academic integrity, and studio conduct.`,
+    "student-services": `Student services, labs, and support resources for PHOT 300 Photographic Vision: Theory & Practice II at ${institution}.`,
+    proposal: `Proposal assignment for PHOT 300 — research-creation project proposal and conceptual framework.`,
+    "mid-term-presentation": `Mid-Term Presentation for PHOT 300 — progress critique on the yearlong research-creation project.`,
+    "end-of-term-presentation-and-critique": `End-of-Term Presentation and Critique for PHOT 300 — resolved work and verbal articulation.`,
+    "class-participation": `Class Participation expectations for PHOT 300 Photographic Vision: Theory & Practice II.`,
+    readings: `Readings and downloadable course files for PHOT 300 Photographic Vision: Theory & Practice II.`,
+    "faculty-of-fine-arts": `Faculty of Fine Arts information for students in PHOT 300 at ${institution}.`,
+    "photography-program": `Photography program at ${institution} — context for PHOT 300 Photographic Vision: Theory & Practice II.`,
+  },
   phot331: {
     site: `PHOT 331 Digital Photography I — open syllabus and course materials taught by Adam Simms at ${institution}.`,
     home: `PHOT 331 Digital Photography I — introductory digital photography syllabus at ${institution}.`,

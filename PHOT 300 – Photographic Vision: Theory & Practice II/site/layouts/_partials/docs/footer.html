@@ -1,0 +1,15 @@
+{{ if not .IsHome }}
+<nav class="course-footer-utils" aria-label="Page tools">
+  <a href="{{ "course/print/" | relURL }}">Print syllabus</a>
+  {{ with .OutputFormats.Get "TXT" }}
+  <span class="course-footer-sep" aria-hidden="true">·</span>
+  <a href="{{ .Permalink }}">Plain text</a>
+  {{ end }}
+  {{ with .Params.sourceFile }}
+  <span class="course-footer-sep" aria-hidden="true">·</span>
+  <a href="{{ $.Site.Params.BookRepo }}/edit/main/{{ . }}" target="_blank" rel="noopener">View source on GitHub</a>
+  {{ end }}
+</nav>
+{{ end }}
+
+{{ partial "docs/prev-next" . }}

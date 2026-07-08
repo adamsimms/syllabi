@@ -10,3 +10,6 @@
 [submodule "PHOT 331 – Digital Photography I/site/themes/hugo-book"]
 	path = PHOT 331 – Digital Photography I/site/themes/hugo-book
 	url = https://github.com/alex-shpak/hugo-book.git
+[submodule "PHOT 300 – Photographic Vision: Theory & Practice II/site/themes/hugo-book"]
+	path = PHOT 300 – Photographic Vision: Theory & Practice II/site/themes/hugo-book
+	url = https://github.com/alex-shpak/hugo-book.git

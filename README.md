@@ -8,6 +8,13 @@ This repository is a reference archive in Markdown—for colleagues, past and fu
 
 ## Courses
 
+### [PHOT 300 – Photographic Vision: Theory & Practice II](./PHOT%20300%20%E2%80%93%20Photographic%20Vision%3A%20Theory%20%26%20Practice%20II/)
+
+An intermediate studio course that supports students in advancing their photographic practice through a yearlong research-creation project. Weekly seminars, group critiques, gallery visits, and mentorship help students develop a photographic language unique to their work while engaging contemporary photography and theory.
+
+- Taught in the [Photography program](https://www.concordia.ca/finearts/studio-arts/photography.html) in the [Studio Arts Department](https://www.concordia.ca/finearts/studio-arts.html) at [Concordia University](https://www.concordia.ca), Fall 2024 – Winter 2025.
+- [Syllabus](./PHOT%20300%20%E2%80%93%20Photographic%20Vision%3A%20Theory%20%26%20Practice%20II/) · [Assignments](./PHOT%20300%20%E2%80%93%20Photographic%20Vision%3A%20Theory%20%26%20Practice%20II/assignments.md) · [Schedule](./PHOT%20300%20%E2%80%93%20Photographic%20Vision%3A%20Theory%20%26%20Practice%20II/schedule.md) · [Resources](./PHOT%20300%20%E2%80%93%20Photographic%20Vision%3A%20Theory%20%26%20Practice%20II/resources.md)
+
 ### [PHOT 331 – Digital Photography I](./PHOT%20331%20%E2%80%93%20Digital%20Photography%20I/)
 
 An introductory studio course in digital photography covering scanning, RAW processing, colour management, Photoshop correction, printing workflows, and composite image-making. Students complete three technical assignments — analog inputs, printing, and a composite triptych — while building the digital darkroom skills that support studio practice in the photography program.

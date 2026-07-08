@@ -19,7 +19,7 @@ export const HUB_SITE_NAME = "Syllabi — Adam Simms";
 export const INSTRUCTOR_NAME = "Adam Simms";
 export const INSTRUCTOR_URL = "https://www.concordia.ca/faculty/adam-simms.html";
 export const INSTRUCTOR_BIO =
-  "Artist-in-residence, Studio Arts · Photography, New Media, and Design";
+  "Technologist, designer, artist, and educator · photography, new media, design";
 export const INSTRUCTOR_IMAGE = `${SITE_ORIGIN}/images/adam-simms.jpg`;
 
 export function hubJsonLd(courses) {

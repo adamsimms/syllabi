@@ -1,5 +1,14 @@
 [
   {
+    "slug": "phot300",
+    "siteDir": "PHOT 300 – Photographic Vision: Theory & Practice II/site",
+    "code": "PHOT 300",
+    "title": "Photographic Vision: Theory & Practice II",
+    "term": "Fall 2024 – Winter 2025",
+    "description": "Intermediate studio supporting a yearlong research-creation project through critiques, theory, gallery visits, and mentorship.",
+    "tags": ["critique", "photography theory", "research-creation", "studio practice"]
+  },
+  {
     "slug": "phot331",
     "siteDir": "PHOT 331 – Digital Photography I/site",
     "code": "PHOT 331",
@@ -15,7 +24,7 @@
     "title": "Digital Photography II",
     "term": "Winter 2025",
     "description": "Advanced digital photography building technical proficiency and a personalized artistic vision through workshops and major assignments.",
-    "tags": ["digital culture", "AI", "media theory", "Photoshop", "printing", "image circulation"]
+    "tags": ["digital culture", "AI", "media theory", "advanced Photoshop", "printing", "image circulation"]
   },
   {
     "slug": "phot398",
@@ -24,7 +33,7 @@
     "title": "As Seen on Screens: Cyberspace & Image Economy",
     "term": null,
     "description": "Remote studio course on digital image circulation, net art, and post-internet practices with an online research-creation project.",
-    "tags": ["net art", "post-internet", "image circulation", "surveillance capitalism", "research-creation"]
+    "tags": ["net art", "post-internet", "image circulation", "remix culture", "research-creation"]
   },
   {
     "slug": "phot400",
@@ -33,6 +42,6 @@
     "title": "Advanced Workshop in Photography",
     "term": "Fall 2025 – Winter 2025",
     "description": "Yearlong capstone studio for final-year students developing a sustained research-creation project through critiques and mentorship.",
-    "tags": ["capstone", "critique", "photography theory", "gallery visits", "body of work"]
+    "tags": ["critique", "photography theory", "research-creation"]
   }
 ]

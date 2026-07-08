@@ -85,8 +85,11 @@ function writeHubAssets() {
 
 function writeCoursesIndex() {
   const items = courses
-    .map(
-      (course) => `<li>
+    .map((course) => {
+      const term = course.term
+        ? `<span class="term">${escapeHtml(course.term)}</span>`
+        : "";
+      return `<li>
   <a class="course-card" href="/${course.slug}/">
     <img
       class="course-thumb"
@@ -98,14 +101,17 @@ function writeCoursesIndex() {
       decoding="async"
     >
     <span class="course-text">
-      <span class="code">${escapeHtml(course.code)}</span>
+      <span class="meta">
+        <span class="code">${escapeHtml(course.code)}</span>
+        ${term}
+      </span>
       <span class="title">${escapeHtml(course.title)}</span>
       <span class="description">${escapeHtml(course.description)}</span>
       ${renderTags(course.tags)}
     </span>
   </a>
-</li>`
-    )
+</li>`;
+    })
     .join("\n");
 
   const jsonLd = hubJsonLd(courses);
@@ -300,12 +306,26 @@ function writeCoursesIndex() {
       min-width: 0;
     }
 
-    .code {
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      gap: 0.35rem 0.65rem;
+      margin-bottom: 0.15rem;
+    }
+
+    .code,
+    .term {
       font-size: 0.85rem;
       letter-spacing: 0.04em;
       text-transform: uppercase;
       color: var(--muted);
-      margin-bottom: 0.15rem;
+    }
+
+    .term::before {
+      content: "·";
+      margin-right: 0.65rem;
+      color: var(--border);
     }
 
     .title {
@@ -330,7 +350,8 @@ function writeCoursesIndex() {
 
     .tag {
       font-size: 0.72rem;
-      letter-spacing: 0.02em;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
       color: var(--muted);
       border: 1px solid var(--border);
       padding: 0.12rem 0.45rem;
