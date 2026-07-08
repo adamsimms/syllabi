@@ -25,25 +25,6 @@ Students are required to undertake an extended black-and-white or colour photogr
 
 ---
 
-## Delivery
-
-### In-Person
-
-All classes will be held on campus unless specified otherwise in the [course schedule](schedule.md). In-person attendance is mandatory.
-
-### Moodle
-
-- [Course Moodle page](https://moodle.concordia.ca/moodle/course/view.php?id=169301)
-- You can access Moodle directly at [moodle.concordia.ca](https://moodle.concordia.ca).
-- Please make sure the email address you indicate in your My CU Account/Student Hub is correct and up to date. Any Moodle course announcements created by professors will automatically use this email address for notifications.
-- Program hubs: [Photography Moodle Hub](https://moodle.concordia.ca) · [Studio Arts Department Moodle Hub](https://moodle.concordia.ca)
-
-### Individual Meetings
-
-Individual meetings can be arranged by [booking an appointment](https://cal.com/adam-simms-ivi9mt/1-hour-meeting) with the instructor.
-
----
-
 ## Fees + Materials
 
 **Photography department fee:** All students must pay $160 for each 6-credit course. Please pay online via [Concordia Fine Arts fees](https://www.concordia.ca/cunews/finearts/digital-arts/fine-arts-fees.html) and email the receipt to the professor by **Week 4**. The names of students who have yet to pay by this date are given to the technicians, and students will only be able to access the labs or borrow equipment once the fees are paid.

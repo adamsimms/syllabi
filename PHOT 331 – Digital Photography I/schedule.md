@@ -2,8 +2,6 @@
 
 [Syllabus](README.md) · [Assignments](assignments.md) · **Schedule** · [Resources](resources.md)
 
-Please note that the following schedule is subject to change.
-
 ---
 
 ## Week 1
