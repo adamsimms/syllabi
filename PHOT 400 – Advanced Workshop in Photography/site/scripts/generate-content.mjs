@@ -11,6 +11,7 @@ runCourseGenerator({
   siteDir: path.resolve(__dirname, ".."),
   assetSync: "full",
   includeReadingsPage: false,
+  includeDeliveryPage: false,
   buildOverviewMarkdown,
   extractPageMarkdown,
   readCourseFile,
@@ -23,7 +24,7 @@ runCourseGenerator({
       seoKey: "proposal",
       section: "Proposal",
       pageTitle: "Proposal",
-      sourceAnchor: "proposal",
+      sourceAnchor: "proposal-10",
     },
     {
       path: "assignments/mid-term-presentation.md",
@@ -32,7 +33,7 @@ runCourseGenerator({
       seoKey: "mid-term-presentation",
       section: "Mid-Term Presentation",
       pageTitle: "Mid-Term Presentation",
-      sourceAnchor: "mid-term-presentation",
+      sourceAnchor: "mid-term-presentation-10",
     },
     {
       path: "assignments/final-presentation-and-critique.md",
@@ -41,7 +42,7 @@ runCourseGenerator({
       seoKey: "final-presentation-and-critique",
       section: "Final Presentation and Critique",
       pageTitle: "Final Presentation and Critique",
-      sourceAnchor: "final-presentation-and-critique",
+      sourceAnchor: "final-presentation-and-critique-20",
     },
   ],
 });

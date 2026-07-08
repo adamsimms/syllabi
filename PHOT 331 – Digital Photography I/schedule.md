@@ -25,7 +25,7 @@
 
 ---
 
-## Week 3 (Remote)
+## Week 3
 
 - RAW conversion workflow
 - Getting comfortable with Adobe Photoshop: histogram, cropping, smart objects, organizing layers, etc.

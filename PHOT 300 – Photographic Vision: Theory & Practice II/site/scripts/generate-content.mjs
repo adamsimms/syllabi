@@ -24,7 +24,7 @@ runCourseGenerator({
       seoKey: "proposal",
       section: "Proposal",
       pageTitle: "Proposal",
-      sourceAnchor: "proposal",
+      sourceAnchor: "proposal-10",
     },
     {
       path: "assignments/mid-term-presentation.md",
@@ -33,7 +33,7 @@ runCourseGenerator({
       seoKey: "mid-term-presentation",
       section: "Mid-Term Presentation",
       pageTitle: "Mid-Term Presentation",
-      sourceAnchor: "mid-term-presentation",
+      sourceAnchor: "mid-term-presentation-10",
     },
     {
       path: "assignments/end-of-term-presentation-and-critique.md",
@@ -42,7 +42,7 @@ runCourseGenerator({
       seoKey: "end-of-term-presentation-and-critique",
       section: "End-of-Term Presentation and Critique",
       pageTitle: "End-of-Term Presentation and Critique",
-      sourceAnchor: "end-of-term-presentation-and-critique",
+      sourceAnchor: "end-of-term-presentation-and-critique-20",
     },
     {
       path: "assignments/class-participation.md",
@@ -51,7 +51,7 @@ runCourseGenerator({
       seoKey: "class-participation",
       section: "Class Participation",
       pageTitle: "Class Participation",
-      sourceAnchor: "class-participation",
+      sourceAnchor: "class-participation-10",
     },
   ],
 });
