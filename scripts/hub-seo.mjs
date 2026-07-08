@@ -2,9 +2,10 @@ import { SITE_ORIGIN } from "./course-seo.mjs";
 
 export const HUB_TITLE = "Syllabi — Adam Simms";
 export const HUB_HEADING = "Syllabi";
-export const HUB_LEDE = "Open-source materials for undergraduate courses.";
+export const HUB_LEDE =
+  "Course materials for undergraduate courses I have developed, designed, and taught. A reference archive for colleagues, students, and anyone building syllabi.";
 export const HUB_DESCRIPTION =
-  "Open-source syllabi and course materials for undergraduate photography courses by Adam Simms.";
+  "Course materials for undergraduate courses developed, designed, and taught by Adam Simms — a reference archive for colleagues, students, and anyone building syllabi.";
 export const HUB_URL = `${SITE_ORIGIN}/`;
 export const HUB_OG_IMAGE_PATH = "/images/og-square.jpg";
 export const HUB_OG_IMAGE = `${SITE_ORIGIN}${HUB_OG_IMAGE_PATH}`;
