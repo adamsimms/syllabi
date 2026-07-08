@@ -2,14 +2,13 @@
 
 [Syllabus](README.md) · [Assignments](assignments.md) · **Schedule** · [Resources](resources.md)
 
-**Time:** Wednesdays, 8:30 AM–12:30 PM  
-**Location:** EV 5.709 SGW unless otherwise noted.
+**Time:** Wednesdays, 8:30 AM–12:30 PM
 
 Please note that the following schedule is subject to change.
 
 ---
 
-## Week 1 (EV 5.709) — January 15
+## Week 1 — January 15
 
 - Introductions
 - Review course outline
@@ -21,7 +20,7 @@ Please note that the following schedule is subject to change.
 
 ---
 
-## Week 2 (EV 5.709) — January 22
+## Week 2 — January 22
 
 - Colour management: colour spaces, profiles, and calibration
 - From analog to digital
@@ -39,7 +38,7 @@ Please note that the following schedule is subject to change.
 
 ---
 
-## Week 4 (EV 5.709) — February 5
+## Week 4 — February 5
 
 - Image correction techniques: selections, masks, repairing, etc.
 - Printing workflow
@@ -49,7 +48,7 @@ Please note that the following schedule is subject to change.
 
 ---
 
-## Week 5 (EV 4.709) — February 12
+## Week 5 — February 12
 
 - Printing workflow
 - Printer demo
@@ -59,7 +58,7 @@ Please note that the following schedule is subject to change.
 
 ---
 
-## Week 6 (EV 5.709) — February 19
+## Week 6 — February 19
 
 - Printing studio time
 
@@ -69,7 +68,7 @@ Please note that the following schedule is subject to change.
 
 ---
 
-## Week 8 (EV 5.709) — March 5
+## Week 8 — March 5
 
 - Workflows for consistency across a series of images
 - Photoshop AI and image generation
@@ -81,7 +80,7 @@ Please note that the following schedule is subject to change.
 
 ---
 
-## Week 9 (EV 5.709) — March 12
+## Week 9 — March 12
 
 - Composite images
 - File sizing & resolution, upsampling, noise reduction, etc.
@@ -90,7 +89,7 @@ Please note that the following schedule is subject to change.
 
 ---
 
-## Week 10 (EV 5.709) — March 19
+## Week 10 — March 19
 
 - Preparing files for various outputs: web, projectors, etc.
 - Individual meetings
@@ -98,16 +97,16 @@ Please note that the following schedule is subject to change.
 
 ---
 
-## Week 11 (EV 5.709) — March 26
+## Week 11 — March 26
 
 - Digital asset management (DAM) Part II
-- Class discussion on reading #2: *In Defense of the Poor Image* by Hito Steyerl
+- Class discussion on reading #2: [*In Defense of the Poor Image*](https://www.e-flux.com/journal/10/61362/in-defense-of-the-poor-image) by Hito Steyerl
 - Individual meetings
 - Free studio time
 
 ---
 
-## Week 12 (EV 3.635) — April 2
+## Week 12 — April 2
 
 - Final presentations and critiques: Group A
 
@@ -115,7 +114,7 @@ Please note that the following schedule is subject to change.
 
 ---
 
-## Week 13 (EV 3.635) — April 9
+## Week 13 — April 9
 
 - Final presentations and critiques: Group B
 

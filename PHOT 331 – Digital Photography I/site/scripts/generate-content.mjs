@@ -10,6 +10,7 @@ runCourseGenerator({
   courseSlug: "phot331",
   siteDir: path.resolve(__dirname, ".."),
   assetSync: "full",
+  includeReadingsPage: false,
   buildOverviewMarkdown,
   extractPageMarkdown,
   readCourseFile,

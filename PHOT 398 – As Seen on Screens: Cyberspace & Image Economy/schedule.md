@@ -3,7 +3,7 @@
 [Syllabus](README.md) · [Assignments](assignments.md) · **Schedule** · [Resources](resources.md)
 
 **Time:** Fridays, 1:30–5:30 PM Eastern Time  
-**Delivery:** Remote via Zoom unless otherwise noted.
+**Delivery:** Via Zoom unless otherwise noted.
 
 All assignments must be submitted before midnight on the due date unless otherwise indicated.
 

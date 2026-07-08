@@ -467,6 +467,16 @@ function writeRedirects() {
     `/${course.slug} /${course.slug}/index.html 200`,
   ]);
 
+  // Readings live on the schedule; keep old /readings/ URLs working.
+  rules.push("/phot331/readings /phot331/course/schedule/ 301");
+  rules.push("/phot331/readings/ /phot331/course/schedule/ 301");
+  rules.push("/phot332/readings /phot332/course/schedule/ 301");
+  rules.push("/phot332/readings/ /phot332/course/schedule/ 301");
+  rules.push("/phot398/readings /phot398/course/schedule/ 301");
+  rules.push("/phot398/readings/ /phot398/course/schedule/ 301");
+  rules.push("/phot400/readings /phot400/course/schedule/ 301");
+  rules.push("/phot400/readings/ /phot400/course/schedule/ 301");
+
   fs.writeFileSync(path.join(distDir, "_redirects"), `${rules.join("\n")}\n`);
 }
 

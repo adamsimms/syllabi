@@ -2,8 +2,7 @@
 
 [Syllabus](README.md) · [Assignments](assignments.md) · **Schedule** · [Resources](resources.md)
 
-**Time:** Tuesdays, 1:30–5:30 PM  
-**Location:** EV 3.635 SGW unless otherwise noted.
+**Time:** Tuesdays, 1:30–5:30 PM
 
 *Subject to change. Fall 2024 semester shown below.*
 

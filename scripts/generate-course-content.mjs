@@ -110,6 +110,7 @@ export function runCourseGenerator({
   courseSlug,
   siteDir,
   assetSync = "full",
+  includeReadingsPage = true,
   assignments,
   buildOverviewMarkdown,
   extractPageMarkdown,
@@ -237,18 +238,20 @@ export function runCourseGenerator({
     );
   }
 
-  writePage(
-    contentDir,
-    "readings.md",
-    {
-      title: "Readings & Downloads",
-      weight: 25,
-      ...seoMeta(courseSlug, "readings"),
-      ...contentSitemap(0.7),
-      ...sourceMeta(courseFolderName, "assets/README.md"),
-    },
-    rewriteMdLinksMarkdown(buildReadingsMarkdown(courseDir, url))
-  );
+  if (includeReadingsPage) {
+    writePage(
+      contentDir,
+      "readings.md",
+      {
+        title: "Readings & Downloads",
+        weight: 25,
+        ...seoMeta(courseSlug, "readings"),
+        ...contentSitemap(0.7),
+        ...sourceMeta(courseFolderName, "assets/README.md"),
+      },
+      rewriteMdLinksMarkdown(buildReadingsMarkdown(courseDir, url))
+    );
+  }
 
   writeSectionIndex(contentDir, "general/_index.md", "General Info", 30);
 

@@ -31,7 +31,7 @@ An advanced studio course in digital photography that builds technical proficien
 
 ### [PHOT 398 – As Seen on Screens: Cyberspace & Image Economy](./PHOT%20398%20%E2%80%93%20As%20Seen%20on%20Screens%3A%20Cyberspace%20%26%20Image%20Economy/)
 
-A remote studio course examining digital image circulation, net art, and post-internet practices. Students engage with readings on screens, surveillance capitalism, and image economies while producing an online-only research-creation project through proposals, group presentations, peer critiques, and Moodle discussion responses.
+A studio course examining digital image circulation, net art, and post-internet practices. Students engage with readings on screens, surveillance capitalism, and image economies while producing an online-only research-creation project through proposals, group presentations, peer critiques, and Moodle discussion responses.
 
 - Taught in the [Photography program](https://www.concordia.ca/finearts/studio-arts/photography.html) in the [Studio Arts Department](https://www.concordia.ca/finearts/studio-arts.html) at [Concordia University](https://www.concordia.ca).
 - [Syllabus](./PHOT%20398%20%E2%80%93%20As%20Seen%20on%20Screens%3A%20Cyberspace%20%26%20Image%20Economy/) · [Assignments](./PHOT%20398%20%E2%80%93%20As%20Seen%20on%20Screens%3A%20Cyberspace%20%26%20Image%20Economy/assignments.md) · [Schedule](./PHOT%20398%20%E2%80%93%20As%20Seen%20on%20Screens%3A%20Cyberspace%20%26%20Image%20Economy/schedule.md) · [Resources](./PHOT%20398%20%E2%80%93%20As%20Seen%20on%20Screens%3A%20Cyberspace%20%26%20Image%20Economy/resources.md)

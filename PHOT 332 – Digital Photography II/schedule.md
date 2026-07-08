@@ -2,14 +2,13 @@
 
 [Syllabus](README.md) · [Assignments](assignments.md) · **Schedule** · [Resources](resources.md)
 
-**Time:** Wednesdays, 8:30 AM–12:30 PM  
-**Location:** EV 5.709 SGW unless otherwise noted.
+**Time:** Wednesdays, 8:30 AM–12:30 PM
 
 Please note that the following schedule is subject to change.
 
 ---
 
-## Week 1 (EV 5.709)
+## Week 1
 
 - Introductions
 - Review course outline
@@ -28,7 +27,7 @@ Please note that the following schedule is subject to change.
 
 ---
 
-## Week 3 (EV 4.709)
+## Week 3
 
 - Image optimization workflow
 - Advanced scanning techniques
@@ -39,7 +38,7 @@ Please note that the following schedule is subject to change.
 
 ---
 
-## Week 4 (EV 5.709)
+## Week 4
 
 - Advanced Photoshop techniques
 - Photography and AI image generation
@@ -52,7 +51,7 @@ Please note that the following schedule is subject to change.
 
 ---
 
-## Week 5 (EV 4.709)
+## Week 5
 
 - Extending Photoshop
 - Lecture on contemporary artist using composite images
@@ -63,7 +62,7 @@ Please note that the following schedule is subject to change.
 
 ---
 
-## Week 6 (EV 5.709)
+## Week 6
 
 - Lecture on contemporary artist using composite images
 - Printing workflow review
@@ -86,7 +85,7 @@ Please note that the following schedule is subject to change.
 
 ---
 
-## Week 9 (EV 5.709)
+## Week 9
 
 - Displaying images online: Part I
 - Assignment #3 overview
@@ -96,7 +95,7 @@ Please note that the following schedule is subject to change.
 
 ---
 
-## Week 10 (EV 5.709)
+## Week 10
 
 - Displaying images online: Part II
 - **Reading #6 presentation:** [*The Perception Machine*](https://www.nonhuman.photography/perception-machine) by Joanna Zylinska · [MIT Press](https://mitpress.mit.edu/9780262546836/the-perception-machine/) · Supplementary: [*Digital Divide*](https://www.artforum.com/features/digital-divide-contemporary-art-and-new-media-200814/) by Claire Bishop (Artforum)
@@ -105,14 +104,14 @@ Please note that the following schedule is subject to change.
 
 ---
 
-## Week 11 (EV 3.635)
+## Week 11
 
 - Individual meetings (optional)
 - Studio time
 
 ---
 
-## Week 12 (EV 3.635)
+## Week 12
 
 - Final presentations and critiques: Group A
 
@@ -120,7 +119,7 @@ Please note that the following schedule is subject to change.
 
 ---
 
-## Week 13 (EV 3.635)
+## Week 13
 
 - Final presentations and critiques: Group B
 
