@@ -1,10 +1,8 @@
-# Photography Syllabi — Adam Simms
+# Syllabi — Adam Simms
 
-Open syllabi and course materials for undergraduate photography courses I have developed, designed, and taught. [Adam Simms](https://www.concordia.ca/faculty/adam-simms.html) has taught in the [Photography program](https://www.concordia.ca/finearts/studio-arts/photography.html) in the [Studio Arts Department](https://www.concordia.ca/finearts/studio-arts.html) at [Concordia University](https://www.concordia.ca).
+Open syllabi and course materials for undergraduate courses I have developed, designed, and taught.
 
 This repository is a reference archive in Markdown—for colleagues, past and future students, and anyone looking for ideas when building a course outline. It is also my own working source when I teach these courses again. Each course folder is self-contained: syllabus, assignments, schedule, and resources. Materials are maintained for easy reading on GitHub and straightforward updates from semester to semester. Institution and semester details are noted on each course page.
-
-**Repository:** [github.com/adamsimms/syllabi](https://github.com/adamsimms/syllabi)
 
 ## Courses
 
@@ -44,51 +42,6 @@ A yearlong capstone studio course for final-year photography students developing
 - [Syllabus](./PHOT%20400%20%E2%80%93%20Advanced%20Workshop%20in%20Photography/) · [Assignments](./PHOT%20400%20%E2%80%93%20Advanced%20Workshop%20in%20Photography/assignments.md) · [Schedule](./PHOT%20400%20%E2%80%93%20Advanced%20Workshop%20in%20Photography/schedule.md) · [Resources](./PHOT%20400%20%E2%80%93%20Advanced%20Workshop%20in%20Photography/resources.md)
 
 ---
-
-## Adding a Course
-
-Copy an existing course folder to a new folder and adapt the content. Each course folder is self-contained — policies and grading scale are included in the syllabus and resources pages.
-
-When updating an existing offering for a new term, consider archiving the previous term in a subfolder (e.g. `2025-winter/`) rather than overwriting in place.
-
-## Cloning with assets
-
-Course files (PDFs, small archives) are stored with [Git LFS](https://git-lfs.com/). After cloning, run `git lfs pull` if files are missing.
-
-Large PHOT 332 sample archives (~2.4 GB total) are on [GitHub Releases](https://github.com/adamsimms/syllabi/releases/tag/phot332-winter-2025-samples), not in git — see `scripts/sample-releases.mjs`.
-
-## Publishing
-
-Syllabus sites are published at `syllabi.adamsimms.xyz/photXXX/` (e.g. `syllabi.adamsimms.xyz/phot331/`).
-
-```bash
-npm run build   # outputs to dist/
-```
-
-Cloudflare Pages project: **adamsimms-xyz-syllabi** (`wrangler.toml`). Preview: [adamsimms-xyz-syllabi.pages.dev](https://adamsimms-xyz-syllabi.pages.dev/).
-
-**Dashboard settings** (Workers & Pages → adamsimms-xyz-syllabi → Settings → Builds):
-
-| Setting | Value |
-|---------|-------|
-| Build command | `npm run build` |
-| Build output directory | `dist` |
-| `HUGO_VERSION` | `0.164.0` (optional; Hugo is also pinned via `hugo-extended` in `package.json`) |
-| `GIT_LFS_ENABLED` | `true` |
-
-Connect the GitHub repo for automatic deploys on push to `main`. Add custom domain `syllabi.adamsimms.xyz` under Custom domains.
-
-PDFs and small assets sync via Git LFS during the build. Sample archives over 24 MiB are served from GitHub Releases, not Pages.
-
-### Analytics
-
-Syllabus traffic is tracked with [Umami Cloud](https://umami.is/) (Hobby plan), shared with [adamsimms.xyz](https://adamsimms.xyz).
-
-1. Sign up at [cloud.umami.is](https://cloud.umami.is) and add a website named `adamsimms.xyz`.
-2. Copy the website ID into `analytics.config.json` (`umamiWebsiteId`), or set `UMAMI_WEBSITE_ID` in the Cloudflare Pages project environment.
-3. Run `npm run build` — the tracker is injected into all course pages and the hub.
-
-The script uses `data-domains="adamsimms.xyz,syllabi.adamsimms.xyz"` so one Umami website covers both properties.
 
 ## License
 
