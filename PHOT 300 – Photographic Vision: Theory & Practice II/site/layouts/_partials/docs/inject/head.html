@@ -1,4 +1,6 @@
 {{ if or .Params.noindex .Params.BookHref (eq .Kind "404") }}
 <meta name="robots" content="noindex, nofollow">
 {{ end }}
+<meta name="theme-color" content="#f05f40">
+<meta name="color-scheme" content="light">
 {{ partial "analytics" . }}

@@ -1,0 +1,13 @@
+<div class="flex align-center justify-between course-mobile-bar">
+  <label for="menu-control" class="course-mobile-toggle">
+    <img src="{{ partial "docs/icon" "menu" }}" class="book-icon" alt="{{ partial "docs/text/i18n" "Menu" }}" />
+  </label>
+
+  <a class="course-mobile-code" href="{{ partial "docs/links/home" . }}">{{ .Site.Params.courseCode }}</a>
+
+  <label for="toc-control" class="course-mobile-toggle">
+    {{ if partial "docs/toc-show" . }}
+    <img src="{{ partial "docs/icon" "toc" }}" class="book-icon" alt="{{ partial "docs/text/i18n" "Table of Contents" }}" />
+    {{ end }}
+  </label>
+</div>

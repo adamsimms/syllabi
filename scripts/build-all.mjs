@@ -13,7 +13,6 @@ import {
 import {
   HUB_TITLE,
   HUB_HEADING,
-  HUB_LEDE,
   HUB_DESCRIPTION,
   HUB_URL,
   HUB_OG_IMAGE,
@@ -23,16 +22,28 @@ import {
   HUB_THEME_COLOR,
   HUB_SITE_NAME,
   INSTRUCTOR_NAME,
-  INSTRUCTOR_URL,
-  INSTRUCTOR_BIO,
-  INSTRUCTOR_TAGS,
   hubJsonLd,
 } from "./hub-seo.mjs";
+import {
+  FONT_FACE_CSS,
+  ROOT_VARS_CSS,
+  ART_NAV_CSS,
+  ART_FOOTER_CSS,
+  renderArtNav,
+  renderArtFooter,
+} from "./site-chrome.mjs";
+import {
+  loadTalks,
+  writeTalkPages,
+  talkRedirects,
+  talkSitemapUrls,
+} from "./talks.mjs";
 
 const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const distDir = path.join(rootDir, "dist");
 const hugoBinDir = path.join(rootDir, "node_modules", ".bin");
 const courses = JSON.parse(fs.readFileSync(path.join(rootDir, "courses.json"), "utf8"));
+const talks = loadTalks();
 const analyticsConfig = loadAnalyticsConfig(rootDir);
 
 writeAnalyticsPartial(rootDir, analyticsConfig);
@@ -61,21 +72,21 @@ function escapeHtml(value) {
     .replaceAll('"', "&quot;");
 }
 
-function renderTags(tags, { listClass = "tags", itemClass = "tag" } = {}) {
-  if (!tags?.length) return "";
-  const chips = tags
-    .map((tag) => `<span class="${itemClass}">${escapeHtml(tag)}</span>`)
-    .join("");
-  return `<span class="${listClass}">${chips}</span>`;
-}
-
 function writeHubAssets() {
   const imagesDir = path.join(distDir, "images");
+  const fontsDir = path.join(distDir, "fonts");
   fs.mkdirSync(imagesDir, { recursive: true });
+  fs.mkdirSync(fontsDir, { recursive: true });
 
   for (const entry of fs.readdirSync(HUB_ASSETS_DIR, { withFileTypes: true })) {
-    if (!entry.isFile()) continue;
     const sourcePath = path.join(HUB_ASSETS_DIR, entry.name);
+    if (entry.isDirectory() && entry.name === "fonts") {
+      for (const font of fs.readdirSync(sourcePath)) {
+        fs.copyFileSync(path.join(sourcePath, font), path.join(fontsDir, font));
+      }
+      continue;
+    }
+    if (!entry.isFile()) continue;
     if (entry.name === "favicon.svg") {
       fs.copyFileSync(sourcePath, path.join(distDir, "favicon.svg"));
       continue;
@@ -86,33 +97,14 @@ function writeHubAssets() {
 
 function writeCoursesIndex() {
   const items = courses
-    .map((course) => {
-      const term = course.term
-        ? `<span class="term">${escapeHtml(course.term)}</span>`
-        : "";
-      return `<li>
-  <a class="course-card" href="/${course.slug}/">
-    <img
-      class="course-thumb"
-      src="/${course.slug}/images/og-square.jpg"
-      alt=""
-      width="120"
-      height="120"
-      loading="lazy"
-      decoding="async"
-    >
-    <span class="course-text">
-      <span class="meta">
-        <span class="code">${escapeHtml(course.code)}</span>
-        ${term}
-      </span>
-      <span class="title">${escapeHtml(course.title)}</span>
-      <span class="description">${escapeHtml(course.description)}</span>
-      ${renderTags(course.tags)}
-    </span>
+    .map(
+      (course) => `<li>
+  <a class="course-link" href="/${course.slug}/">
+    <span class="code">${escapeHtml(course.code)}</span>
+    <span class="title">${escapeHtml(course.title)}</span>
   </a>
-</li>`;
-    })
+</li>`
+    )
     .join("\n");
 
   const jsonLd = hubJsonLd(courses);
@@ -151,306 +143,128 @@ function writeCoursesIndex() {
   ${JSON.stringify(jsonLd, null, 2)}
   </script>
   <style>
-    :root {
-      --text: rgba(0, 0, 0, 0.75);
-      --muted: rgba(0, 0, 0, 0.5);
-      --border: rgba(0, 0, 0, 0.12);
-      --accent: #ec444a;
-      --link-underline: rgba(0, 0, 0, 0.6);
-      --max-width: 56rem;
-      --sidebar-width: 10.5rem;
-    }
+${FONT_FACE_CSS}
+${ROOT_VARS_CSS}
 
     * { box-sizing: border-box; }
 
+    html {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      height: 100%;
+    }
+
     body {
       margin: 0;
-      padding: 3rem 1.5rem 4rem;
-      font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      min-height: 100%;
+      min-height: 100dvh;
+      padding: 0;
+      font-family: var(--font-body);
+      font-size: var(--type-body);
+      line-height: 1.55;
       color: var(--text);
-      background: #fff;
+      background: var(--bg);
     }
 
     main {
-      max-width: var(--max-width);
-      margin: 0 auto;
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) var(--sidebar-width);
-      gap: 2.5rem 3rem;
-      align-items: start;
+      box-sizing: border-box;
+      width: 100%;
+      min-height: calc(100dvh - 5rem);
+      margin: 0;
+      padding: 0 var(--page-inset) var(--page-inset);
+      display: flex;
+      flex-direction: column;
     }
-
-    .content {
-      grid-column: 1;
-      min-width: 0;
-    }
-
-    .sidebar {
-      grid-column: 2;
-      position: sticky;
-      top: 2rem;
-    }
+${ART_NAV_CSS}
 
     h1 {
-      margin: 0 0 0.5rem;
-      font-size: 1.75rem;
-      font-weight: 600;
-      letter-spacing: -0.02em;
+      margin: 0 0 clamp(2.5rem, 8vh, 5rem);
+      font-family: var(--font-body);
+      font-size: var(--type-display);
+      font-style: normal;
+      font-weight: 560;
+      font-synthesis: none;
+      letter-spacing: -0.03em;
+      line-height: 1.05;
     }
 
-    .lede {
-      margin: 0 0 2rem;
-      color: var(--muted);
-    }
-
-    .instructor {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 0.75rem;
-      color: inherit;
-      border-bottom: none;
-    }
-
-    .instructor:hover,
-    .instructor:focus-visible {
-      color: inherit;
-      border-bottom-color: transparent;
-    }
-
-    .instructor:hover .instructor-name,
-    .instructor:focus-visible .instructor-name {
-      color: var(--accent);
-    }
-
-    .instructor-photo {
-      display: block;
-      width: 5rem;
-      height: 5rem;
-      object-fit: cover;
-      border-radius: 50%;
-    }
-
-    .instructor-text {
-      display: flex;
-      flex-direction: column;
-      gap: 0.25rem;
-      min-width: 0;
-    }
-
-    .instructor-name {
-      font-weight: 500;
-      line-height: 1.3;
-      transition: color 0.15s ease;
-    }
-
-    .instructor-bio {
-      color: var(--muted);
-      font-size: 0.85rem;
-      line-height: 1.45;
-    }
-
-    .instructor-tags {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.35rem;
-      margin-top: 0.35rem;
-    }
-
-    .instructor-tag {
-      font-size: 0.72rem;
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
-      color: var(--muted);
-      border: 1px solid var(--border);
-      padding: 0.12rem 0.45rem;
-      line-height: 1.35;
-    }
-
-    ul {
+    .courses {
       list-style: none;
       margin: 0;
       padding: 0;
     }
 
-    li {
+    .courses li + li {
       border-top: 1px solid var(--border);
     }
 
-    a {
-      color: var(--text);
-      text-decoration: none;
-      border-bottom: 1px solid var(--link-underline);
-      transition: color 0.15s ease, border-bottom-color 0.15s ease;
+    .courses li:last-child {
+      border-bottom: 1px solid var(--border);
     }
 
-    a:hover,
-    a:focus-visible {
-      color: var(--accent);
-      border-bottom-color: var(--accent);
-    }
-
-    .course-card {
-      display: grid;
-      grid-template-columns: 7.5rem minmax(0, 1fr);
-      gap: 1.35rem;
-      align-items: start;
-      padding: 1.35rem 0;
-      color: inherit;
-      border-bottom: none;
-    }
-
-    .course-card:hover,
-    .course-card:focus-visible {
-      color: inherit;
-      border-bottom-color: transparent;
-    }
-
-    .course-card:hover .title,
-    .course-card:focus-visible .title {
-      color: var(--accent);
-    }
-
-    .course-thumb {
-      display: block;
-      width: 7.5rem;
-      height: 7.5rem;
-      object-fit: cover;
-    }
-
-    .course-text {
+    .course-link {
       display: flex;
       flex-direction: column;
-      min-width: 0;
+      gap: 0.35rem;
+      padding: clamp(1.1rem, 2.2vw, 1.5rem) 0;
+      color: inherit;
+      text-decoration: none;
+      border: none;
     }
 
-    .meta {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: baseline;
-      gap: 0.35rem 0.65rem;
-      margin-bottom: 0.15rem;
-    }
-
-    .code,
-    .term {
-      font-size: 0.85rem;
-      letter-spacing: 0.04em;
+    .course-link .code {
+      font-family: var(--font-body);
+      font-size: var(--type-caption);
+      font-weight: 500;
+      letter-spacing: 0.08em;
       text-transform: uppercase;
       color: var(--muted);
     }
 
-    .term::before {
-      content: "·";
-      margin-right: 0.65rem;
-      color: var(--border);
-    }
-
-    .title {
-      font-size: 1.15rem;
-      font-weight: 500;
-      line-height: 1.35;
+    .course-link .title {
+      font-family: var(--font-body);
+      font-size: clamp(1.45rem, 1.15rem + 1.2vw, 2.15rem);
+      font-style: normal;
+      font-weight: 560;
+      font-synthesis: none;
+      letter-spacing: -0.025em;
+      line-height: 1.15;
+      color: var(--text);
       transition: color 0.15s ease;
     }
 
-    .description {
-      margin: 0.5rem 0 0;
-      color: var(--muted);
-      font-size: 0.95rem;
-    }
-
-    .tags {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.35rem;
-      margin-top: 0.75rem;
-    }
-
-    .tag {
-      font-size: 0.72rem;
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
-      color: var(--muted);
-      border: 1px solid var(--border);
-      padding: 0.12rem 0.45rem;
-      line-height: 1.35;
-    }
-
-    footer {
-      margin-top: 2.5rem;
-      padding-top: 1.5rem;
-      border-top: 1px solid var(--border);
-      color: var(--muted);
-      font-size: 0.9rem;
-    }
-
-    footer a {
-      color: var(--muted);
+    .course-link:hover .title,
+    .course-link:focus-visible .title {
+      color: var(--link);
     }
 
     @media (max-width: 720px) {
-      main {
-        grid-template-columns: 1fr;
-      }
-
-      .content,
-      .sidebar {
-        grid-column: 1;
-      }
-
-      .sidebar {
-        order: -1;
-        position: static;
-        padding-bottom: 1.5rem;
-        border-bottom: 1px solid var(--border);
-      }
-
-      .instructor {
-        flex-direction: row;
-        align-items: center;
-      }
-
-      .instructor-bio {
-        font-size: 0.9rem;
+      .course-link .title {
+        font-size: clamp(1.25rem, 4.8vw, 1.55rem);
+        text-decoration: underline;
+        text-decoration-color: color-mix(in srgb, var(--text) 28%, transparent);
+        text-decoration-thickness: 1px;
+        text-underline-offset: 0.18em;
       }
     }
+
+    @media (hover: hover) and (pointer: fine) {
+      .course-link .title {
+        text-decoration: none;
+      }
+    }
+${ART_FOOTER_CSS}
   </style>
 </head>
 <body>
+${renderArtNav()}
   <main>
-    <div class="content">
-      <h1>${escapeHtml(HUB_HEADING)}</h1>
-      <p class="lede">${escapeHtml(HUB_LEDE)}</p>
-      <ul>
+    <h1>${escapeHtml(HUB_HEADING)}</h1>
+    <ul class="courses">
 ${items}
-      </ul>
-      <footer>
-        <a href="https://github.com/adamsimms/syllabi">GitHub</a> ·
-        <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
-      </footer>
-    </div>
-    <aside class="sidebar">
-      <a class="instructor" href="${INSTRUCTOR_URL}">
-        <img
-          class="instructor-photo"
-          src="/images/adam-simms.jpg"
-          alt="${escapeHtml(INSTRUCTOR_NAME)}"
-          width="80"
-          height="80"
-          loading="lazy"
-          decoding="async"
-        >
-        <span class="instructor-text">
-          <span class="instructor-name">${escapeHtml(INSTRUCTOR_NAME)}</span>
-          <span class="instructor-bio">${escapeHtml(INSTRUCTOR_BIO)}</span>
-          ${renderTags(INSTRUCTOR_TAGS, {
-            listClass: "instructor-tags",
-            itemClass: "instructor-tag",
-          })}
-        </span>
-      </a>
-    </aside>
+    </ul>
   </main>
+${renderArtFooter("syllabi")}
 </body>
 </html>`;
 
@@ -507,6 +321,8 @@ function writeRedirects() {
     rules.push(`/${course.slug}/appointments/ /${course.slug}/course/appointments/ 301`);
   }
 
+  rules.push(...talkRedirects(talks));
+
   fs.writeFileSync(path.join(distDir, "_redirects"), `${rules.join("\n")}\n`);
 }
 
@@ -542,6 +358,7 @@ ${entries.join("\n")}
       (course) =>
         `<url><loc>${SITE_ORIGIN}/${course.slug}/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>`
     ),
+    ...talkSitemapUrls(talks),
   ];
 
   const hubSitemap = `<?xml version="1.0" encoding="UTF-8"?>
@@ -594,10 +411,13 @@ for (const course of courses) {
 
 writeHubAssets();
 writeCoursesIndex();
+writeTalkPages(distDir, analyticsConfig, talks);
 writeRedirects();
 writeHeaders();
 writeRobotsTxt();
 writeSitemapIndex();
 pruneOversizedFiles(distDir);
 
-console.log(`\nBuilt ${courses.length} course sites in ${distDir}`);
+console.log(
+  `\nBuilt ${courses.length} course sites and ${talks.length} talk page(s) in ${distDir}`
+);

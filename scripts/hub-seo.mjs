@@ -2,8 +2,7 @@ import { SITE_ORIGIN } from "./course-seo.mjs";
 
 export const HUB_TITLE = "Syllabi — Adam Simms";
 export const HUB_HEADING = "Syllabi";
-export const HUB_LEDE =
-  "Course materials for undergraduate courses I have developed, designed, and taught. A reference archive for colleagues, students, and anyone building syllabi.";
+export const HUB_LEDE = "";
 export const HUB_DESCRIPTION =
   "Course materials for undergraduate courses developed, designed, and taught by Adam Simms — a reference archive for colleagues, students, and anyone building syllabi.";
 export const HUB_URL = `${SITE_ORIGIN}/`;
@@ -13,14 +12,15 @@ export const HUB_OG_IMAGE_ALT =
   "Syllabi — open undergraduate photography course materials by Adam Simms";
 export const HUB_OG_IMAGE_WIDTH = 1200;
 export const HUB_OG_IMAGE_HEIGHT = 1200;
-export const HUB_THEME_COLOR = "#ec444a";
+export const HUB_THEME_COLOR = "#f05f40";
 export const HUB_SITE_NAME = "Syllabi — Adam Simms";
 
 export const INSTRUCTOR_NAME = "Adam Simms";
 export const INSTRUCTOR_URL = "https://www.concordia.ca/faculty/adam-simms.html";
-export const INSTRUCTOR_BIO = "Technologist, designer, artist, and educator — MFA, BFA.";
+export const INSTRUCTOR_BIO = "Technologist, designer, artist, and educator. MFA, BFA.";
 export const INSTRUCTOR_TAGS = ["photography", "new media", "design"];
 export const INSTRUCTOR_IMAGE = `${SITE_ORIGIN}/images/adam-simms.jpg`;
+
 
 export function hubJsonLd(courses) {
   const instructor = {

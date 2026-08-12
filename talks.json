@@ -1,0 +1,24 @@
+[
+  {
+    "slug": "concordia-survival-tactics",
+    "title": "Virtual Identity for Artists",
+    "kind": "Guest lecture",
+    "venue": "Concordia University",
+    "venueUrl": "https://www.concordia.ca",
+    "course": "Survival Tactics",
+    "courseNote": "professional practice",
+    "date": "2026",
+    "format": "~1 hr lecture + ~45 min live demo",
+    "audience": "Mixed studio / fine arts (photo, sculpture, painting, video)",
+    "description": "A guest lecture and live build on shaping an artist's online presence: website vs. social platforms, planning a site, preparing files for the web, and building a portfolio with Cargo.",
+    "summary": [
+      "Your virtual identity is often the first studio visit — the way curators, jurors, and collaborators meet your work before they meet you. This talk for Concordia's *Survival Tactics* frames the artist's online presence as an ecosystem: a website you own (your studio) and the social platforms and listings you rent (the group show), all pointing back to a home base.",
+      "The session pairs concepts with practical craft — deciding what's public, private, or mixed; planning a site with a sitemap; documenting work and preparing images and video for the web; and a live demo building a portfolio site with Cargo. Aimed at a mixed studio / fine-arts audience across photography, sculpture, painting, and video."
+    ],
+    "tags": ["virtual identity", "artist website", "Cargo", "file formats", "social media", "portfolio"],
+    "slidesUrl": "https://www.figma.com/slides/CE94yuqSRM6iNfa8g2vGS3/Virtual-Identity-for-Artists",
+    "relatedCourse": { "code": "PHOT 332", "title": "Digital Photography II", "slug": "phot332" },
+    "sourceUrl": "https://github.com/adamsimms/syllabi/tree/main/guest-lectures/concordia-survival-tactics",
+    "resources": []
+  }
+]
