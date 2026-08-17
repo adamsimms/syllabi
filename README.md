@@ -43,6 +43,8 @@ A yearlong capstone studio course for final-year photography students developing
 
 ---
 
+Syllabus sites use Umami Cloud and Ghostpane, shared with [adamsimms.xyz](https://adamsimms.xyz). Configuration lives in `analytics.config.json`.
+
 ## License
 
 Unless otherwise noted, course materials in this repository are published under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You are free to share and adapt these materials for any purpose, provided you give appropriate credit.

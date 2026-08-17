@@ -5,6 +5,7 @@ import { fileURLToPath } from "node:url";
 import { SITE_ORIGIN } from "./course-seo.mjs";
 import { syncHugoLayouts } from "./sync-hugo-layouts.mjs";
 import {
+  buildGhostpaneScripts,
   buildUmamiScriptTag,
   buildHeadersBlock,
   loadAnalyticsConfig,
@@ -49,6 +50,9 @@ const analyticsConfig = loadAnalyticsConfig(rootDir);
 writeAnalyticsPartial(rootDir, analyticsConfig);
 if (!analyticsConfig.umamiWebsiteId) {
   console.warn("Umami analytics skipped: set umamiWebsiteId in analytics.config.json or UMAMI_WEBSITE_ID");
+}
+if (!analyticsConfig.ghostpaneSiteId) {
+  console.warn("Ghostpane analytics skipped: set ghostpaneSiteId in analytics.config.json or GHOSTPANE_SITE_ID");
 }
 
 const HUB_ASSETS_DIR = path.join(rootDir, "assets/hub");
@@ -139,6 +143,7 @@ function writeCoursesIndex() {
   <meta name="twitter:image" content="${HUB_OG_IMAGE}">
   <meta name="twitter:image:alt" content="${escapeHtml(HUB_OG_IMAGE_ALT)}">
   ${buildUmamiScriptTag(analyticsConfig)}
+  ${buildGhostpaneScripts(analyticsConfig)}
   <script type="application/ld+json">
   ${JSON.stringify(jsonLd, null, 2)}
   </script>
