@@ -1,4 +1,4 @@
-baseURL = "https://syllabi.adamsimms.xyz/phot400/"
+baseURL = "https://teaching.adamsimms.xyz/phot400/"
 title = "Advanced Workshop in Photography"
 theme = "hugo-book"
 
@@ -38,7 +38,7 @@ publishDir = "_site"
   BookSearch = false
   BookComments = false
   BookSection = "/"
-  BookRepo = "https://github.com/adamsimms/syllabi"
+  BookRepo = "https://github.com/adamsimms/teaching"
   BookFavicon = "favicon.svg"
   courseCode = "PHOT 400"
   courseTitle = "Advanced Workshop in Photography"

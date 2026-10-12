@@ -1,4 +1,4 @@
-# Syllabi — Adam Simms
+# Teaching
 
 Open syllabi and course materials for undergraduate courses I have developed, designed, and taught.
 
@@ -51,4 +51,4 @@ Unless otherwise noted, course materials in this repository are published under 
 
 ## Contact
 
-Questions about these materials or adapting them for your own teaching? [Book a meeting](https://calendar.notion.so/meet/adamsimms/1h) or [open an issue](https://github.com/adamsimms/syllabi/issues) in this repository.
+Questions about these materials or adapting them for your own teaching? [Book a meeting](https://calendar.notion.so/meet/adamsimms/1h) or [open an issue](https://github.com/adamsimms/teaching/issues) in this repository.

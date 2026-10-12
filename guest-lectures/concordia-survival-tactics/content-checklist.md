@@ -37,4 +37,4 @@ Collect all of this in one folder *before* building.
 - [ ] **Backups** — keep your own copy of every image + your written content; export your site periodically. Platforms die; your archive shouldn't.
 
 > Specs & how-to: see the [File formats & sizing reference](file-formats.md).
-> Deeper file-prep guidance: PHOT 332, "Displaying images online" — <https://syllabi.adamsimms.xyz/phot332/>
+> Deeper file-prep guidance: PHOT 332, "Displaying images online" — <https://teaching.adamsimms.xyz/phot332/>

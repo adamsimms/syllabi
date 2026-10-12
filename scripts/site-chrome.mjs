@@ -598,20 +598,20 @@ export const ART_FOOTER_SCRIPT = `
 </script>`;
 
 /**
- * Art-site footer. `current` should be one of: works | about | cv | syllabi | collaborations
+ * Art-site footer. `current` should be one of: works | about | cv | teaching | collaborations
  */
-export function renderArtFooter(current = "syllabi") {
+export function renderArtFooter(current = "teaching") {
   const year = new Date().getFullYear();
   const siteLinks = [
     { href: `${ART_ORIGIN}/works`, label: "Works", id: "works" },
     { href: `${ART_ORIGIN}/about`, label: "About", id: "about" },
     { href: `${ART_ORIGIN}/cv`, label: "CV", id: "cv" },
-    { href: "/", label: "Syllabi", id: "syllabi" },
+    { href: "/", label: "Teaching", id: "teaching" },
     { href: `${ART_ORIGIN}/collaborations`, label: "Collaborations", id: "collaborations" },
   ];
   const socialLinks = [
     { href: "https://www.linkedin.com/in/adamsimms", label: "LinkedIn" },
-    { href: "https://www.concordia.ca/faculty/adam-simms.html", label: "Teaching" },
+    { href: "https://www.concordia.ca/faculty/adam-simms.html", label: "Concordia" },
     { href: "https://github.com/adamsimms", label: "GitHub" },
   ];
 

@@ -4,9 +4,9 @@ Guest lecture · Concordia University · *Survival Tactics* (professional practi
 
 **Format:** ~1 hr lecture + ~45 min live demo (~105 min total)
 **Audience:** mixed studio / fine arts (photo, sculpture, painting, video, etc.)
-**Speaker:** Adam Simms · [syllabi.adamsimms.xyz](https://syllabi.adamsimms.xyz)
+**Speaker:** Adam Simms · [teaching.adamsimms.xyz](https://teaching.adamsimms.xyz)
 
-Leans on material from PHOT 332 – Digital Photography II (Weeks 9–10, "Displaying images online"): <https://syllabi.adamsimms.xyz/phot332/>
+Leans on material from PHOT 332 – Digital Photography II (Weeks 9–10, "Displaying images online"): <https://teaching.adamsimms.xyz/phot332/>
 
 ## Contents
 

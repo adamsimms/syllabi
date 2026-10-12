@@ -1,4 +1,4 @@
-export const SITE_ORIGIN = "https://syllabi.adamsimms.xyz";
+export const SITE_ORIGIN = "https://teaching.adamsimms.xyz";
 
 const institution = "Concordia University";
 

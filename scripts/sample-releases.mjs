@@ -7,7 +7,7 @@ import path from "node:path";
 const RELEASES = {
   "PHOT 332 – Digital Photography II": {
     tag: "phot332-winter-2025-samples",
-    baseUrl: "https://github.com/adamsimms/syllabi/releases/download/phot332-winter-2025-samples",
+    baseUrl: "https://github.com/adamsimms/teaching/releases/download/phot332-winter-2025-samples",
     files: new Set([
       "samples/example-raw-files.zip",
       "samples/week-03-sample-images.zip",

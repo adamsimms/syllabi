@@ -1,19 +1,19 @@
 import { SITE_ORIGIN } from "./course-seo.mjs";
 
-export const HUB_TITLE = "Syllabi — Adam Simms";
-export const HUB_HEADING = "Syllabi";
+export const HUB_TITLE = "Teaching, Adam Simms";
+export const HUB_HEADING = "Teaching";
 export const HUB_LEDE = "";
 export const HUB_DESCRIPTION =
-  "Course materials for undergraduate courses developed, designed, and taught by Adam Simms — a reference archive for colleagues, students, and anyone building syllabi.";
+  "Course materials for undergraduate courses developed, designed, and taught by Adam Simms. A reference archive for colleagues, students, and anyone building syllabi.";
 export const HUB_URL = `${SITE_ORIGIN}/`;
 export const HUB_OG_IMAGE_PATH = "/images/og-square.jpg";
 export const HUB_OG_IMAGE = `${SITE_ORIGIN}${HUB_OG_IMAGE_PATH}`;
 export const HUB_OG_IMAGE_ALT =
-  "Syllabi — open undergraduate photography course materials by Adam Simms";
+  "Teaching. Open undergraduate photography course materials by Adam Simms";
 export const HUB_OG_IMAGE_WIDTH = 1200;
 export const HUB_OG_IMAGE_HEIGHT = 1200;
 export const HUB_THEME_COLOR = "#f05f40";
-export const HUB_SITE_NAME = "Syllabi — Adam Simms";
+export const HUB_SITE_NAME = "Teaching, Adam Simms";
 
 export const INSTRUCTOR_NAME = "Adam Simms";
 export const INSTRUCTOR_URL = "https://www.concordia.ca/faculty/adam-simms.html";

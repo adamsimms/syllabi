@@ -414,7 +414,7 @@ ${summary}
       <p class="back"><a href="/">&larr; All courses</a></p>
     </article>
   </main>
-${renderArtFooter("syllabi")}
+${renderArtFooter("teaching")}
 </body>
 </html>`;
 }

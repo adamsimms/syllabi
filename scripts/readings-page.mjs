@@ -42,7 +42,7 @@ function localFilesSection(title, files, siteUrl) {
   const rows = files.map((file) => {
     const label = humanizeFilename(file.name);
     const href = siteUrl(`/${file.relPath}`);
-    const hosted = file.overPagesLimit ? " — hosted on [GitHub](https://github.com/adamsimms/syllabi)" : "";
+    const hosted = file.overPagesLimit ? " — hosted on [GitHub](https://github.com/adamsimms/teaching)" : "";
     return `| ${label} | ${file.sizeLabel} | [Download](${href})${hosted} |`;
   });
 

@@ -269,7 +269,7 @@ ${renderArtNav()}
 ${items}
     </ul>
   </main>
-${renderArtFooter("syllabi")}
+${renderArtFooter("teaching")}
 </body>
 </html>`;
 

@@ -1,4 +1,4 @@
-baseURL = "https://syllabi.adamsimms.xyz/phot331/"
+baseURL = "https://teaching.adamsimms.xyz/phot331/"
 title = "Digital Photography I"
 theme = "hugo-book"
 
@@ -38,7 +38,7 @@ publishDir = "_site"
   BookSearch = false
   BookComments = false
   BookSection = "/"
-  BookRepo = "https://github.com/adamsimms/syllabi"
+  BookRepo = "https://github.com/adamsimms/teaching"
   BookFavicon = "favicon.svg"
   courseCode = "PHOT 331"
   courseTitle = "Digital Photography I"
