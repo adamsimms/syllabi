@@ -4,7 +4,7 @@ export const HUB_TITLE = "Teaching, Adam Simms";
 export const HUB_HEADING = "Teaching";
 export const HUB_LEDE = "";
 export const HUB_DESCRIPTION =
-  "Course materials for undergraduate courses developed, designed, and taught by Adam Simms. A reference archive for colleagues, students, and anyone building syllabi.";
+  "Course materials for undergraduate courses developed, designed, and taught by Adam Simms. A reference archive for colleagues, students, and anyone building a course.";
 export const HUB_URL = `${SITE_ORIGIN}/`;
 export const HUB_OG_IMAGE_PATH = "/images/og-square.jpg";
 export const HUB_OG_IMAGE = `${SITE_ORIGIN}${HUB_OG_IMAGE_PATH}`;
