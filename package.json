@@ -10,6 +10,6 @@
     "node": ">=20"
   },
   "devDependencies": {
-    "hugo-extended": "0.164.0"
+    "hugo-extended": "0.167.0"
   }
 }
