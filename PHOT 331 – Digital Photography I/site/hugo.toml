@@ -53,4 +53,4 @@ publishDir = "_site"
 [params.hero]
   alt = "X-Rite ColorChecker Classic chart used for colour calibration in digital photography"
   caption = "X-Rite — ColorChecker Classic"
-  creditUrl = "https://www.xrite.com/categories/calibration/colorchecker-classic"
+  creditUrl = "https://www.xrite.com/categories/calibration-profiling/colorchecker-classic"

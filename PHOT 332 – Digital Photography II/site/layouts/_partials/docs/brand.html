@@ -1,4 +1,4 @@
-<h2 class="book-brand">
+{{ if .IsHome }}<h1 class="book-brand">{{ else }}<div class="book-brand">{{ end }}
   <a class="book-brand-link" href="{{ partial "docs/links/home" . }}">
     {{- with .Site.Params.BookLogo -}}
     <img src="{{ . | relURL }}" alt="{{ partial "docs/text/i18n" "Logo" }}" />
@@ -15,4 +15,4 @@
       {{- end -}}
     </span>
   </a>
-</h2>
+{{ if .IsHome }}</h1>{{ else }}</div>{{ end }}

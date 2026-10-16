@@ -13,7 +13,7 @@
 - Presentation schedule
 - Assignment #2 overview
 
-**Materials:** [Slides](https://www.figma.com/slides/htNx05voJUXGdzI5q5SIgB/PHOT-332-%3E-Class-%232?node-id=8-638&t=QWtfbfBPxEPgzHKc-1) · [Example RAW files](assets/samples/example-raw-files.zip)
+**Materials:** [Slides](https://www.figma.com/slides/htNx05voJUXGdzI5q5SIgB/PHOT-332-%3E-Class-%232?node-id=8-638&t=QWtfbfBPxEPgzHKc-1) · [Example RAW files](https://github.com/adamsimms/teaching/releases/download/phot332-winter-2025-samples/example-raw-files.zip)
 
 ---
 
@@ -30,7 +30,7 @@
 - Assignment #2 Q&A
 - **Reading #1 presentation:** [*Nonhuman Photography*](https://mitpress.mit.edu/9780262552622/nonhuman-photography/) by Joanna Zylinska · [Companion site](https://www.nonhuman.photography/) · [Presentation slides](https://docs.google.com/presentation/d/1FINRXWveMgv07g_F-n8Rg2_u1rPHbRey7TTsUW8JCYc/edit#slide=id.g32b44eda370_0_78)
 
-**Materials:** [Slides](https://www.figma.com/slides/J0Jdp6nzgRvZJivMoOo3eK/PHOT-332--%3E-Week-%233?node-id=4001-20&t=ixeXztEBK9E496QP-1) · [Sample images](assets/samples/week-03-sample-images.zip)
+**Materials:** [Slides](https://www.figma.com/slides/J0Jdp6nzgRvZJivMoOo3eK/PHOT-332--%3E-Week-%233?node-id=4001-20&t=ixeXztEBK9E496QP-1) · [Sample images](https://github.com/adamsimms/teaching/releases/download/phot332-winter-2025-samples/week-03-sample-images.zip)
 
 ---
 
@@ -43,7 +43,7 @@
 
 *Lab fees due. Please email receipt to the professor.*
 
-**Materials:** [Slides](https://www.figma.com/slides/7EKpeJJbpW67hOOB1UJ03u/PHOT-332--%3E-Week-%234?node-id=4001-20&t=PDAWGtGEUdER2SNI-1) · [Sample images](assets/samples/week-04-sample-images.zip)
+**Materials:** [Slides](https://www.figma.com/slides/7EKpeJJbpW67hOOB1UJ03u/PHOT-332--%3E-Week-%234?node-id=4001-20&t=PDAWGtGEUdER2SNI-1) · [Sample images](https://github.com/adamsimms/teaching/releases/download/phot332-winter-2025-samples/week-04-sample-images.zip)
 
 ---
 
@@ -54,7 +54,7 @@
 - To be determined
 - **Reading #3 presentation:** [*Duty Free Art*](https://www.versobooks.com/products/486-duty-free-art) by Hito Steyerl · [Original essay (e-flux)](https://www.e-flux.com/journal/63/60894/duty-free-art)
 
-**Materials:** [Slides](https://www.figma.com/slides/Q4zkOvRUHCpa96RZ993FlZ/PHOT-332--%3E-Week-%235?node-id=4004-205&t=Ri7s1EZZLWrvNwac-1) · [Sample images](assets/samples/week-05-sample-images.zip)
+**Materials:** [Slides](https://www.figma.com/slides/Q4zkOvRUHCpa96RZ993FlZ/PHOT-332--%3E-Week-%235?node-id=4004-205&t=Ri7s1EZZLWrvNwac-1) · [Sample images](https://github.com/adamsimms/teaching/releases/download/phot332-winter-2025-samples/week-05-sample-images.zip)
 
 ---
 

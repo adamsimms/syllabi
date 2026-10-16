@@ -39,9 +39,9 @@ In small groups, students will present and moderate an in-class conversation abo
 | [*New Media Art*](https://mitpress.mit.edu/9780262201687/new-media-art/) by Mark Tribe and Reena Jana | Week 3 |
 | "Nonhuman Vision" in [*Nonhuman Photography*](https://mitpress.mit.edu/9780262538325/nonhuman-photography/) by Joanna Zylinska | Week 4 |
 | "Remote Action and the Trauma of (Not) Being Touched" in [*HERE/THERE: Telepresence, Touch, and Art at the Interface*](https://mitpress.mit.edu/9780262037075/here-there/) by Kris Paulsen | Week 5 |
-| "Open Sky: Part I" in [*Open Sky*](https://www.versobooks.com/products/683-open-sky) by Paul Virilio | Week 8 |
+| "Open Sky: Part I" in [*Open Sky*](https://www.versobooks.com/products/1591-open-sky) by Paul Virilio | Week 8 |
 | "In Defense of the Poor Image" + "Too Much World: Is the Internet Dead?" by Hito Steyerl | Week 9 |
-| [*New Aesthetic, New Anxieties*](https://v2.nl/archive/books/new-aesthetic-new-anxieties) by David M. Berry, Michel van Dartel, Michael Dieter, Michelle Kasprzak, Nat Muller, Rachel O'Reilly and José Luis de Vicente | Week 10 |
+| [*New Aesthetic, New Anxieties*](https://v2.nl/articles/new-aesthetic-new-anxieties/) by David M. Berry, Michel van Dartel, Michael Dieter, Michelle Kasprzak, Nat Muller, Rachel O'Reilly and José Luis de Vicente | Week 10 |
 
 ### Evaluation Criteria
 

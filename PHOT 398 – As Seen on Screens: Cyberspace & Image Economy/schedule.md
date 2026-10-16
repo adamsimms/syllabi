@@ -76,7 +76,7 @@
 
 ## Week 8
 
-- **Reading/Presentation #4:** "Open Sky: Part I" in [*Open Sky*](https://www.versobooks.com/products/683-open-sky) by Paul Virilio
+- **Reading/Presentation #4:** "Open Sky: Part I" in [*Open Sky*](https://www.versobooks.com/products/1591-open-sky) by Paul Virilio
 - Artist talks:
   - Adam Simms
   - Petrija Dos Santos
@@ -101,7 +101,7 @@
 ## Week 10
 
 - Guest: Galerie Galerie
-- **Reading/Presentation #6:** [*New Aesthetic, New Anxieties*](https://v2.nl/archive/books/new-aesthetic-new-anxieties) by David M. Berry, Michel van Dartel, Michael Dieter, Michelle Kasprzak, Nat Muller, Rachel O'Reilly and José Luis de Vicente
+- **Reading/Presentation #6:** [*New Aesthetic, New Anxieties*](https://v2.nl/articles/new-aesthetic-new-anxieties/) by David M. Berry, Michel van Dartel, Michael Dieter, Michelle Kasprzak, Nat Muller, Rachel O'Reilly and José Luis de Vicente
 - Film screening: [*Coded Bias*](https://www.codedbias.com/) by Shalini Kantayya
 
 **Moodle:**

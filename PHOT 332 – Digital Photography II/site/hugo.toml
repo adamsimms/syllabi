@@ -53,4 +53,4 @@ publishDir = "_site"
 [params.hero]
   alt = "Hasan Elahi, Conelrad v09 — pigment print on canvas, 72 × 39 inches, 2016"
   caption = "Hasan Elahi — Conelrad v09"
-  creditUrl = "http://elahi.wayne.edu/elahi_conelrad_09.php"
+  creditUrl = "https://www.cgrimaldisgallery.com/hasan-elahi"
