@@ -11,5 +11,8 @@
   },
   "devDependencies": {
     "hugo-extended": "0.167.0"
+  },
+  "overrides": {
+    "adm-zip": "^0.6.1"
   }
 }
